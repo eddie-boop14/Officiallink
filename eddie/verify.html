@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eddie HQ — Verification Dashboard</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0c14;--surface:#12151f;--surface2:#1a1e2c;--ink:#e2dfd8;--sub:#6b7280;--border:#252d3f;
+  --red:#ff4444;--red-bg:rgba(255,68,68,.1);--green:#34c759;--green-bg:rgba(52,199,89,.1);
+  --gold:#e8a832;--gold-bg:rgba(232,168,50,.1);--blue:#4d9aff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+a{color:var(--blue);text-decoration:none}
+
+/* Header */
+.hq-header{background:linear-gradient(135deg,#1a0808,#2a1015 50%,#1a0a15);border-bottom:2px solid var(--red);
+  padding:1.5rem;text-align:center;position:relative;overflow:hidden}
+.hq-header::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 100%,rgba(255,68,68,.08),transparent 60%)}
+.hq-badge{display:inline-flex;align-items:center;gap:.4rem;font-size:.6rem;font-weight:800;
+  padding:.3rem .8rem;border-radius:20px;background:var(--red-bg);color:var(--red);
+  border:1px solid rgba(255,68,68,.2);margin-bottom:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.hq-title{font-family:'DM Serif Text',serif;font-size:clamp(1.8rem,4vw,2.4rem);color:#fff;font-weight:400;margin-bottom:.4rem;position:relative}
+.hq-title span{color:var(--red)}
+.hq-sub{font-size:.82rem;color:var(--sub);max-width:500px;margin:0 auto;line-height:1.6}
+
+/* Quick nav */
+.hq-nav{max-width:900px;margin:0 auto;padding:1.5rem}
+.hq-nav-title{font-family:'DM Serif Text',serif;font-size:1.1rem;color:var(--gold);margin-bottom:.8rem}
+.hq-nav-desc{font-size:.72rem;color:var(--sub);margin-bottom:1rem;line-height:1.6}
+
+/* Page loader */
+.hq-loader{max-width:900px;margin:0 auto;padding:0 1.5rem 1.5rem}
+.hq-loader-title{font-family:'DM Serif Text',serif;font-size:1rem;color:var(--red);margin-bottom:.6rem;
+  display:flex;align-items:center;gap:.4rem}
+.hq-input-row{display:flex;gap:.5rem;margin-bottom:1rem}
+.hq-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.6rem .9rem;
+  font-size:.8rem;color:var(--ink);font-family:'JetBrains Mono',monospace;outline:none;transition:border-color .15s}
+.hq-input:focus{border-color:var(--red)}
+.hq-input::placeholder{color:#444}
+.hq-go{padding:.6rem 1.2rem;border-radius:8px;background:linear-gradient(135deg,var(--red),#cc2222);
+  color:#fff;border:none;cursor:pointer;font-size:.78rem;font-weight:700;font-family:'Outfit',sans-serif;
+  transition:all .15s}
+.hq-go:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(255,0,0,.3)}
+
+/* Quick links grid */
+.hq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.6rem;margin-bottom:2rem}
+.hq-link{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.7rem .9rem;
+  display:flex;justify-content:space-between;align-items:center;transition:all .15s;cursor:pointer;text-decoration:none}
+.hq-link:hover{border-color:var(--red);transform:translateY(-2px);box-shadow:0 4px 12px rgba(255,0,0,.1)}
+.hq-link-name{font-size:.75rem;font-weight:600;color:var(--ink)}
+.hq-link-info{font-size:.6rem;color:var(--sub)}
+.hq-link-arrow{color:var(--red);font-size:.8rem}
+
+/* Session stats */
+.hq-stats{max-width:900px;margin:0 auto;padding:0 1.5rem 2rem}
+.hq-stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
+.hq-stat{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.8rem;text-align:center}
+.hq-stat-val{font-family:'DM Serif Text',serif;font-size:1.4rem;color:var(--red)}
+.hq-stat-label{font-size:.55rem;color:var(--sub);text-transform:uppercase;letter-spacing:.08em;margin-top:.2rem}
+
+/* Footer */
+.hq-footer{max-width:900px;margin:0 auto;padding:1rem 1.5rem;text-align:center;border-top:1px solid var(--border)}
+.hq-footer p{font-size:.6rem;color:#333}
+
+@media(max-width:600px){.hq-stats-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Eddie HQ — Verification Dashboard">
+<meta property="og:description" content="Official tickets for every attraction. Direct links. No reseller markup.">
+<meta property="og:url" content="https://officiallink.org/eddie/verify">
+<meta property="og:site_name" content="officiallink.org">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Eddie HQ — Verification Dashboard">
+<meta name="twitter:description" content="Official tickets for every attraction. Direct links. No reseller markup.">
+</head>
+<body>
+
+<div class="hq-header">
+  <div class="hq-badge">🔴 RESTRICTED ACCESS</div>
+  <h1 class="hq-title">Eddie <span>HQ</span></h1>
+  <p class="hq-sub">Verification dashboard. Load any page with the Eddie admin layer to verify, edit, and flag attractions on the spot.</p>
+</div>
+
+<div class="hq-nav">
+  <div class="hq-nav-title">How it works</div>
+  <div class="hq-nav-desc">
+    Click any page below or paste a URL. The page loads normally but with the <b style="color:var(--red)">Eddie Layer</b> injected — every card gets an edit button.<br>
+    Click ✏️ on any card → edit price, URLs, status → hit Save → changes logged automatically.<br>
+    When done, hit <b style="color:var(--green)">Export JSON</b> — feed the file to Claude, everything gets applied to the zip.
+  </div>
+</div>
+
+<div class="hq-loader">
+  <div class="hq-loader-title">🔗 Load any page with Eddie Layer</div>
+  <div class="hq-input-row">
+    <input class="hq-input" id="page-url" placeholder="eiffel-tower or /venue/eiffel-tower" value="">
+    <button class="hq-go" onclick="loadPage()">🔴 Load with Eddie →</button>
+  </div>
+</div>
+
+<div class="hq-nav">
+  <div class="hq-nav-title">🇫🇷 Paris — Verified</div>
+  <div class="hq-grid">
+    <a class="hq-link" onclick="go('eiffel-tower')"><div><div class="hq-link-name">Eiffel Tower</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('mus-e-du-louvre')"><div><div class="hq-link-name">Louvre Museum</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('palace-of-versailles')"><div><div class="hq-link-name">Palace of Versailles</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('mus-e-d-orsay')"><div><div class="hq-link-name">Musée d'Orsay</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('catacombs-of-paris')"><div><div class="hq-link-name">Catacombs of Paris</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('arc-de-triomphe')"><div><div class="hq-link-name">Arc de Triomphe</div><div class="hq-link-info">Paris · Full verified</div></div><span class="hq-link-arrow">→</span></a>
+  </div>
+
+  <div class="hq-nav-title">🇫🇷 France — Other Cities</div>
+  <div class="hq-grid">
+    <a class="hq-link" onclick="go('mucem')"><div><div class="hq-link-name">MuCEM</div><div class="hq-link-info">Marseille · Verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('mus-e-des-confluences')"><div><div class="hq-link-name">Musée des Confluences</div><div class="hq-link-info">Lyon · Verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('la-cite-du-vin')"><div><div class="hq-link-name">La Cité du Vin</div><div class="hq-link-info">Bordeaux · Verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('fondation-maeght')"><div><div class="hq-link-name">Fondation Maeght</div><div class="hq-link-info">French Riviera · Verified</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('palais-de-l-le')"><div><div class="hq-link-name">Palais de l'Île</div><div class="hq-link-info">Annecy · Verified</div></div><span class="hq-link-arrow">→</span></a>
+  </div>
+
+  <div class="hq-nav-title">🌍 Top Priority Cities</div>
+  <div class="hq-grid">
+    <a class="hq-link" onclick="go('colosseum')"><div><div class="hq-link-name">🇮🇹 Colosseum</div><div class="hq-link-info">Highest reseller traffic globally</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('vatican-museums-sistine-chapel')"><div><div class="hq-link-name">🇮🇹 Vatican Museums</div><div class="hq-link-info">Venue confirmed · High volume</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('sagrada-familia')"><div><div class="hq-link-name">🇪🇸 Sagrada Família</div><div class="hq-link-info">Barcelona · Millions of visits</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('empire-state-building')"><div><div class="hq-link-name">🇺🇸 Empire State</div><div class="hq-link-info">NYC · Heavy reseller activity</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('uffizi-gallery')"><div><div class="hq-link-name">🇮🇹 Uffizi Gallery</div><div class="hq-link-info">Venue confirmed · Florence</div></div><span class="hq-link-arrow">→</span></a>
+    <a class="hq-link" onclick="go('washington-monument')"><div><div class="hq-link-name">🇺🇸 Washington Monument</div><div class="hq-link-info">Free · Heavy reseller markup</div></div><span class="hq-link-arrow">→</span></a>
+  </div>
+</div>
+
+<div class="hq-stats">
+  <div class="hq-nav-title">📊 This Session</div>
+  <div class="hq-stats-grid">
+    <div class="hq-stat"><div class="hq-stat-val" id="stat-total">0</div><div class="hq-stat-label">Changes</div></div>
+    <div class="hq-stat"><div class="hq-stat-val" id="stat-verified">0</div><div class="hq-stat-label">Verified</div></div>
+    <div class="hq-stat"><div class="hq-stat-val" id="stat-flagged" style="color:#ff4444">0</div><div class="hq-stat-label">Resellers</div></div>
+    <div class="hq-stat"><div class="hq-stat-val" id="stat-pages">0</div><div class="hq-stat-label">Pages</div></div>
+  </div>
+</div>
+
+<div class="hq-footer">
+  <p>Eddie HQ · officiallink.org · Verification Dashboard<br>
+  <a href="/" style="color:var(--gold)">← Back to Site</a></p>
+</div>
+
+<script>
+function go(slug) {
+  const path = slug.startsWith('/') ? slug : '/venue/' + slug;
+  window.location.href = path + (path.includes('?') ? '&' : '?') + 'eddie=true';
+}
+
+function loadPage() {
+  const url = document.getElementById('page-url').value.trim();
+  if (url) go(url);
+}
+
+// Allow Enter key
+document.getElementById('page-url').addEventListener('keydown', e => {
+  if (e.key === 'Enter') loadPage();
+});
+
+// Load session stats
+try {
+  const log = JSON.parse(localStorage.getItem('eddie_log') || '[]');
+  document.getElementById('stat-total').textContent = log.length;
+  document.getElementById('stat-verified').textContent = log.filter(l => l.status === 'verified').length;
+  document.getElementById('stat-flagged').textContent = log.filter(l => l.reseller).length;
+  document.getElementById('stat-pages').textContent = [...new Set(log.map(l => l.page))].length;
+} catch {}
+
+// Load Supabase stats
+const SB_URL = 'https://idbayfinsrdeuzeavsgc.supabase.co';
+const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkYmF5Zmluc3JkZXV6ZWF2c2djIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM2NjAyMzAsImV4cCI6MjA4OTIzNjIzMH0.vvwzfOLEBCPN8JAlBDcToLpV_k83SjK8AyZKWc89QVc';
+
+async function loadCloudStats() {
+  try {
+    const headers = {'apikey': SB_KEY, 'Authorization': 'Bearer ' + SB_KEY};
+    
+    // Get all verifications
+    const r = await fetch(SB_URL + '/rest/v1/verifications?select=id,status,reseller,city,verified_at&order=verified_at.desc&limit=500', {headers});
+    if (!r.ok) return;
+    const data = await r.json();
+    
+    if (data.length > 0) {
+      // Update stats with cloud data (overrides local)
+      document.getElementById('stat-total').textContent = data.length;
+      document.getElementById('stat-verified').textContent = data.filter(d => d.status === 'verified').length;
+      document.getElementById('stat-flagged').textContent = data.filter(d => d.reseller).length;
+      document.getElementById('stat-pages').textContent = [...new Set(data.map(d => d.city))].length;
+      
+      // Add cloud indicator
+      const statsGrid = document.querySelector('.hq-stats-grid');
+      if (statsGrid && !document.getElementById('cloud-badge')) {
+        const badge = document.createElement('div');
+        badge.id = 'cloud-badge';
+        badge.style.cssText = 'grid-column:1/-1;text-align:center;font-size:.6rem;color:#34c759;padding:.3rem';
+        badge.textContent = '☁️ Live from Supabase · Last: ' + new Date(data[0].verified_at).toLocaleString();
+        statsGrid.appendChild(badge);
+      }
+    }
+  } catch(e) { console.log('Cloud stats unavailable:', e); }
+}
+loadCloudStats();
+</script>
+
+<script src="/detective-layer.js" defer></script>
+<div class="dtc" style="background:linear-gradient(135deg,var(--s1),var(--s2));border:1px solid var(--bdr);border-radius:8px;padding:.8rem;margin:.6rem 0">
+<strong style="color:var(--gold);font-size:.65rem">🕵️ Become a Detective</strong>
+<p style="font-size:.5rem;color:var(--sub);line-height:1.6">officiallink.org is built by contributors who verify official links for every attraction. Claim a venue, verify its official website and booking page, and earn your detective badge. <a href="/detective" style="color:var(--gold)">Learn more →</a></p>
+</div>
+</body>
+</html>

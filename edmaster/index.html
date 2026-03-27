@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<title>🕵 Verify — officiallink.org</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;
+  --dim:#4a4d55;--bdr:#222738;--gold:#d4a843;
+  --grn:#2db34a;--grn-bg:rgba(45,179,74,.08);
+  --red:#e04848;--red-bg:rgba(224,72,72,.06);
+  --blu:#4d8bff;--r:10px;
+  --sf:'Cormorant Garamond',Georgia,serif;
+  --ss:'Figtree',system-ui,sans-serif
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ss);background:var(--bg);color:var(--ink);min-height:100vh;-webkit-font-smoothing:antialiased;overscroll-behavior:none}
+a{color:var(--blu);text-decoration:none}
+input,select,textarea,button{font-family:var(--ss)}
+
+/* NAV */
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.top-right{display:flex;align-items:center;gap:.6rem}
+.nav-stats{font-size:.52rem;color:var(--sub)}
+.nav-stats strong{color:var(--grn)}
+
+/* LOAD SCREEN */
+.load{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:85vh;padding:2rem 1.5rem;text-align:center;gap:1rem}
+.load h1{font-family:var(--sf);font-size:1.8rem;color:var(--gold)}
+.load p{font-size:.68rem;color:var(--sub);line-height:1.7;max-width:320px}
+.file-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;background:var(--s1);border:2px dashed var(--bdr);border-radius:12px;padding:1.8rem 1.5rem;cursor:pointer;width:100%;max-width:320px;transition:all .2s}
+.file-btn:active{background:var(--s2);border-color:var(--gold)}
+.file-btn input{display:none}
+.file-btn-icon{font-size:2rem}
+.file-btn-text{font-size:.65rem;color:var(--sub);line-height:1.6}
+.file-btn-text strong{color:var(--gold);display:block;font-size:.72rem;margin-bottom:.2rem}
+.restore-notice{background:var(--grn-bg);border:1px solid rgba(45,179,74,.2);border-radius:8px;padding:.6rem .9rem;font-size:.58rem;color:var(--grn);max-width:320px;width:100%}
+
+/* VENUE LIST VIEW */
+.list-view{display:none;flex-direction:column;min-height:100vh}
+.list-header{padding:.7rem 1rem;background:var(--s1);border-bottom:1px solid var(--bdr);display:flex;justify-content:space-between;align-items:center}
+.list-header-title{font-family:var(--sf);font-size:1rem;color:var(--gold)}
+.list-header-sub{font-size:.5rem;color:var(--sub);margin-top:.1rem}
+.list-actions{display:flex;gap:.4rem}
+.list-btn{padding:.35rem .65rem;border-radius:6px;font-size:.55rem;font-weight:700;border:none;cursor:pointer;transition:all .15s}
+.btn-export{background:rgba(45,179,74,.12);color:var(--grn);border:1px solid rgba(45,179,74,.2)}
+.btn-clear{background:var(--red-bg);color:var(--red);border:1px solid rgba(224,72,72,.15)}
+.venue-items{flex:1;overflow-y:auto}
+.venue-row{display:flex;align-items:center;padding:.75rem 1rem;border-bottom:1px solid var(--bdr);cursor:pointer;gap:.7rem;transition:background .1s;-webkit-tap-highlight-color:transparent}
+.venue-row:active{background:var(--s2)}
+.venue-row.done{background:rgba(45,179,74,.03)}
+.vr-icon{font-size:1rem;flex-shrink:0;width:20px;text-align:center}
+.vr-info{flex:1;min-width:0}
+.vr-name{font-size:.72rem;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vr-meta{font-size:.52rem;color:var(--sub);margin-top:.1rem}
+.vr-arrow{color:var(--dim);font-size:.7rem;flex-shrink:0}
+
+/* FORM VIEW */
+.form-view{display:none;flex-direction:column;min-height:100vh}
+.form-header{padding:.6rem 1rem;background:var(--s1);border-bottom:1px solid var(--bdr);display:flex;align-items:center;gap:.6rem;position:sticky;top:53px;z-index:50}
+.back-btn{background:transparent;border:none;color:var(--sub);font-size:.65rem;cursor:pointer;padding:.2rem 0;display:flex;align-items:center;gap:.3rem;flex-shrink:0}
+.form-header-name{font-size:.68rem;font-weight:700;color:var(--ink);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.form-body{padding:1rem;padding-bottom:6rem}
+
+/* SECTIONS */
+.fsec{background:var(--s1);border:1px solid var(--bdr);border-radius:var(--r);padding:.8rem;margin-bottom:.7rem}
+.fsec-title{font-size:.48rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);margin-bottom:.6rem;display:flex;align-items:center;justify-content:space-between}
+.fsec-badge{font-size:.42rem;background:rgba(212,168,67,.1);color:var(--gold);padding:.1rem .35rem;border-radius:4px;font-weight:700}
+
+/* FIELDS */
+.field{margin-bottom:.55rem}
+.field:last-child{margin-bottom:0}
+.field label{display:block;font-size:.5rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--sub);margin-bottom:.2rem}
+.field input,.field textarea{
+  width:100%;background:var(--s2);border:1px solid var(--bdr);border-radius:7px;
+  color:var(--ink);font-size:.7rem;padding:.45rem .6rem;
+  -webkit-appearance:none;transition:border-color .15s
+}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--gold)}
+.field input.confirmed{border-color:var(--grn);background:rgba(45,179,74,.05)}
+.field textarea{resize:none;min-height:56px;line-height:1.5}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+
+/* URL ROW */
+.url-row{display:flex;gap:.3rem;align-items:stretch}
+.url-row input{flex:1;min-width:0;border-radius:7px 0 0 7px}
+.url-actions{display:flex;gap:.2rem;flex-shrink:0}
+.url-btn{padding:.45rem .5rem;border-radius:0;border:1px solid var(--bdr);border-left:none;background:var(--s2);color:var(--sub);font-size:.6rem;font-weight:700;cursor:pointer;transition:all .15s;white-space:nowrap}
+.url-btn:last-child{border-radius:0 7px 7px 0}
+.url-btn.confirm-btn{background:var(--grn-bg);color:var(--grn);border-color:rgba(45,179,74,.2)}
+.url-btn.confirm-btn.active{background:var(--grn);color:#fff}
+.url-btn.open-btn{color:var(--blu)}
+.url-btn:disabled,.url-btn[style*="opacity:.35"]{opacity:.35;pointer-events:none}
+
+/* CROWD BUILDER */
+.crowd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;margin-bottom:.4rem}
+.crowd-day-btn{padding:.4rem .2rem;border-radius:6px;border:1px solid var(--bdr);background:var(--s2);color:var(--dim);font-size:.52rem;font-weight:700;cursor:pointer;text-align:center;transition:all .15s;-webkit-tap-highlight-color:transparent}
+.crowd-day-btn .day-label{font-size:.44rem;color:var(--sub);display:block;margin-bottom:.15rem}
+.crowd-day-btn.quiet{background:rgba(45,179,74,.2);color:var(--grn);border-color:rgba(45,179,74,.3)}
+.crowd-day-btn.moderate{background:rgba(212,168,67,.2);color:var(--gold);border-color:rgba(212,168,67,.3)}
+.crowd-day-btn.busy{background:rgba(224,72,72,.2);color:var(--red);border-color:rgba(224,72,72,.3)}
+.crowd-day-btn.peak{background:rgba(224,72,72,.4);color:#fff;border-color:var(--red)}
+.crowd-day-btn.closed{background:var(--s2);color:var(--dim);border-color:var(--bdr)}
+
+/* FLAGS */
+.flag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.3rem}
+.flag-btn{padding:.4rem .3rem;border-radius:6px;border:1px solid var(--bdr);background:var(--s2);color:var(--sub);font-size:.52rem;font-weight:600;cursor:pointer;text-align:center;transition:all .15s;-webkit-tap-highlight-color:transparent}
+.flag-btn.active{background:var(--grn-bg);color:var(--grn);border-color:rgba(45,179,74,.25)}
+
+/* TIERS */
+.tier-row{display:grid;grid-template-columns:1fr 70px auto;gap:.3rem;margin-bottom:.3rem;align-items:center}
+.tier-row input{font-size:.65rem;padding:.38rem .5rem}
+.tier-del{background:transparent;border:1px solid var(--bdr);color:var(--red);border-radius:5px;padding:.3rem .45rem;cursor:pointer;font-size:.6rem}
+.add-tier-btn{width:100%;padding:.38rem;background:transparent;border:1px dashed var(--bdr);border-radius:6px;color:var(--sub);font-size:.58rem;cursor:pointer;margin-top:.2rem}
+.add-tier-btn:active{border-color:var(--gold);color:var(--gold)}
+
+/* STICKY ACTIONS */
+.form-actions{position:fixed;bottom:0;left:0;right:0;background:rgba(11,13,18,.97);backdrop-filter:blur(16px);border-top:1px solid var(--bdr);padding:.5rem .8rem;display:flex;gap:.4rem;z-index:50}
+.act-btn{flex:1;padding:.6rem .5rem;border-radius:8px;font-size:.68rem;font-weight:700;border:none;cursor:pointer;transition:all .15s}
+.act-save{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 2px 8px rgba(45,179,74,.2)}
+.act-skip{background:var(--s2);color:var(--sub);border:1px solid var(--bdr)}
+.act-export{background:rgba(212,168,67,.1);color:var(--gold);border:1px solid rgba(212,168,67,.2)}
+
+/* EXPORT PANEL */
+.export-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:200;align-items:flex-end}
+.export-overlay.open{display:flex}
+.export-sheet{background:var(--s1);border-radius:16px 16px 0 0;padding:1.2rem;width:100%;max-height:80vh;overflow-y:auto}
+.export-sheet h2{font-family:var(--sf);color:var(--gold);font-size:1.1rem;margin-bottom:.2rem}
+.export-sheet p{font-size:.55rem;color:var(--sub);margin-bottom:.7rem}
+.export-json{background:var(--bg);border:1px solid var(--bdr);border-radius:6px;padding:.6rem;font-family:monospace;font-size:.52rem;color:#98c379;line-height:1.5;max-height:200px;overflow-y:auto;white-space:pre;overflow-x:auto;margin-bottom:.5rem}
+.export-btn{width:100%;padding:.55rem;border-radius:8px;font-size:.68rem;font-weight:700;cursor:pointer;border:none;margin-bottom:.4rem}
+.ebtn-dl{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff}
+.ebtn-copy{background:var(--s2);color:var(--ink);border:1px solid var(--bdr)}
+.ebtn-close{background:transparent;color:var(--sub);border:1px solid var(--bdr)}
+
+/* SAVED TOAST */
+.toast{position:fixed;top:70px;left:50%;transform:translateX(-50%) translateY(-20px);background:var(--s1);border:1px solid var(--bdr);border-radius:20px;padding:.4rem .9rem;font-size:.6rem;font-weight:700;color:var(--ink);z-index:300;opacity:0;transition:all .25s;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="top">
+  <span class="tl">official<span>link</span>.org <span style="color:var(--sub);font-weight:400">/ verify</span></span>
+  <div class="top-right">
+    <span class="nav-stats" id="navStats" style="display:none"><strong id="navDone">0</strong> / <span id="navTotal">0</span></span>
+  </div>
+</div>
+
+<!-- LOAD SCREEN -->
+<div class="load" id="loadScreen">
+  <h1>🕵 Verify</h1>
+  <p>Load a BATCH-XX.json file to start verifying venues. Verify what you can — minimum is just a URL.</p>
+  <label class="file-btn">
+    <input type="file" accept=".json" onchange="loadFile(this)">
+    <span class="file-btn-icon">📂</span>
+    <span class="file-btn-text"><strong>Load batch JSON</strong>Tap to browse your files</span>
+  </label>
+  <div style="font-size:.52rem;color:var(--dim);margin:.2rem 0">— or —</div>
+  <label class="file-btn" style="border-color:rgba(212,168,67,.3)">
+    <input type="file" accept=".html" onchange="loadFromPage(this)">
+    <span class="file-btn-icon">🔍</span>
+    <span class="file-btn-text"><strong style="color:var(--gold)">Load from venue page</strong>Open a preview HTML to verify &amp; update</span>
+  </label>
+  <div class="restore-notice" id="restoreNotice" style="display:none">
+    🔄 Previous session saved — tap to restore
+    <button onclick="restoreAndContinue()" style="display:block;margin-top:.4rem;background:var(--grn);color:#fff;border:none;border-radius:5px;padding:.3rem .7rem;font-size:.55rem;font-weight:700;cursor:pointer;width:100%">Continue session</button>
+  </div>
+</div>
+
+<!-- VENUE LIST -->
+<div class="list-view" id="listView">
+  <div class="list-header">
+    <div>
+      <div class="list-header-title" id="listTitle">Venues</div>
+      <div class="list-header-sub" id="listSub"></div>
+    </div>
+    <div class="list-actions">
+      <button class="list-btn btn-export" onclick="openExport()">📤 Export</button>
+      <button class="list-btn btn-clear" onclick="clearSession()">✕</button>
+    </div>
+  </div>
+  <div class="venue-items" id="venueItems"></div>
+</div>
+
+<!-- FORM VIEW -->
+<div class="form-view" id="formView">
+  <div class="form-header">
+    <button class="back-btn" onclick="showList()">← Back</button>
+    <span class="form-header-name" id="formHeaderName"></span>
+  </div>
+
+  <div class="form-body" id="formBody"></div>
+
+  <div class="form-actions">
+    <button class="act-btn act-skip" onclick="skipVenue()">Skip</button>
+    <button class="act-btn act-save" onclick="saveVenue()">💾 Save</button>
+    <button class="act-btn act-export" onclick="openExport()">📤 <span id="exportCount">0</span></button>
+  </div>
+</div>
+
+<!-- EXPORT SHEET -->
+<div class="export-overlay" id="exportOverlay" onclick="if(event.target===this)closeExport()">
+  <div class="export-sheet">
+    <h2>Export verified data</h2>
+    <p id="exportSubtitle"></p>
+    <pre class="export-json" id="exportJson"></pre>
+    <button class="export-btn ebtn-dl" onclick="downloadJson()">⬇ Download as file</button>
+    <button class="export-btn ebtn-copy" id="copyBtn" onclick="copyJson()">Copy to clipboard</button>
+    <button class="export-btn ebtn-close" onclick="closeExport()">Close</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+let venues = [], verified = {}, currentSlug = null;
+
+// ─── PERSISTENCE ────────────────────────────────────────
+function persist() {
+  try {
+    localStorage.setItem('ol_verified', JSON.stringify(verified));
+    if (venues.length > 0) localStorage.setItem('ol_venues', JSON.stringify(venues));
+  } catch(e) {}
+}
+
+function checkRestore() {
+  try {
+    const vn = localStorage.getItem('ol_venues');
+    const vd = localStorage.getItem('ol_verified');
+    if (vn && JSON.parse(vn).length > 0) {
+      document.getElementById('restoreNotice').style.display = 'block';
+      if (vd) verified = JSON.parse(vd);
+    }
+  } catch(e) {}
+}
+
+function restoreAndContinue() {
+  try {
+    const vn = localStorage.getItem('ol_venues');
+    if (vn) initApp(JSON.parse(vn), true);
+  } catch(e) {}
+}
+
+function clearSession() {
+  if (!confirm('Clear all saved data?')) return;
+  localStorage.removeItem('ol_verified');
+  localStorage.removeItem('ol_venues');
+  localStorage.removeItem('ol_current');
+  verified = {}; venues = []; currentSlug = null;
+  document.getElementById('listView').style.display = 'none';
+  document.getElementById('formView').style.display = 'none';
+  document.getElementById('loadScreen').style.display = 'flex';
+  document.getElementById('restoreNotice').style.display = 'none';
+}
+
+// ─── LOAD ───────────────────────────────────────────────
+function loadFromPage(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(e.target.result, 'text/html');
+      
+      // Extract venue data from the page
+      const h1 = doc.querySelector('h1');
+      const sub = doc.querySelector('.sub');
+      const crumb = doc.querySelector('.crumb');
+      const crumbLinks = crumb ? crumb.querySelectorAll('a') : [];
+      
+      const name = h1 ? h1.textContent.trim() : file.name.replace('.html','');
+      const city = crumbLinks[2] ? crumbLinks[2].textContent.trim() : '';
+      const country = crumbLinks[1] ? crumbLinks[1].textContent.trim() : '';
+      
+      // Slug from filename
+      const slug = file.name.replace('-preview.html','').replace('.html','');
+      
+      // Extract buttons
+      const sSite = doc.querySelector('.s-site');
+      const sBook = doc.querySelector('.s-book');
+      const sMap = doc.querySelector('.s-map');
+      
+      const v = { name, slug, city, country };
+      
+      if (sSite && sSite.href && sSite.href !== '#') {
+        v.website_url = sSite.href;
+        if (sSite.textContent.includes('✅')) v.site_enabled = true;
+      }
+      if (sBook && sBook.href && sBook.href !== '#') {
+        v.booking_url = sBook.href;
+        if (sBook.textContent.includes('✅')) v.book_enabled = true;
+      }
+      if (sMap && sMap.href && sMap.href.includes('maps')) {
+        v.maps_url = sMap.href;
+      }
+      
+      // Extract price
+      const pcOk = doc.querySelector('.pc-price.ok');
+      const pcBad = doc.querySelector('.pc-price.bad');
+      if (pcOk) v.price = pcOk.textContent.trim();
+      if (pcBad) v.reseller_range = pcBad.textContent.trim();
+      
+      // Extract toggles
+      doc.querySelectorAll('.tg').forEach(tg => {
+        const txt = tg.textContent.trim();
+        if (txt.includes('🕐') && !v.hours) v.hours = txt.replace('🕐','').trim();
+        if (txt.includes('📅')) v.closed_days = txt.replace('📅','').replace('Closed','').trim();
+        if (txt.includes('🚇') && !v.metro) v.metro = txt.replace('🚇','').trim();
+        if (txt.includes('⏱') && !v.duration) v.duration = txt.replace('⏱','').trim();
+        if (txt.includes('🎧') && !v.audio_price) v.audio_price = txt.replace('🎧','').trim();
+      });
+      
+      // Free venue check
+      const whyStrip = doc.querySelector('.why-strip');
+      if (whyStrip && whyStrip.textContent.includes('🆓')) v.is_free = true;
+      
+      // Crowd note
+      const crowdTip = doc.querySelector('.crowd-tip');
+      if (crowdTip) v.crowd_tip = crowdTip.textContent.replace('Best time:','').trim();
+      
+      // Load as single venue
+      verified = {};
+      initApp([v], false);
+      showToast(`✅ Loaded: ${name}`);
+    } catch(err) {
+      alert('Could not parse page: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function loadFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      verified = {};
+      initApp(JSON.parse(e.target.result), false);
+    } catch(err) { alert('Invalid JSON'); }
+  };
+  reader.readAsText(file);
+}
+
+function initApp(data, restored) {
+  venues = data;
+  if (!restored) verified = {};
+  persist();
+  document.getElementById('loadScreen').style.display = 'none';
+  document.getElementById('formView').style.display = 'none';
+  document.getElementById('listView').style.display = 'flex';
+  renderList();
+  updateStats();
+}
+
+// ─── LIST ───────────────────────────────────────────────
+function renderList() {
+  const city = venues[0]?.city || '';
+  const country = venues[0]?.country || '';
+  document.getElementById('listTitle').textContent = city || 'Venues';
+  document.getElementById('listSub').textContent = `${country} · ${venues.length} venues · ${Object.keys(verified).length} verified`;
+  document.getElementById('navTotal').textContent = venues.length;
+  document.getElementById('navStats').style.display = 'flex';
+
+  const container = document.getElementById('venueItems');
+  container.innerHTML = '';
+  venues.forEach(v => {
+    const vd = verified[v.slug];
+    let icon = '·', cls = '';
+    if (vd) {
+      const keys = Object.keys(vd).filter(k => !['name','slug','city','country','status','verified_by','version','timestamp'].includes(k));
+      icon = keys.length >= 3 ? '✅' : '◑';
+      cls = 'done';
+    }
+    const div = document.createElement('div');
+    div.className = `venue-row ${cls}`;
+    div.innerHTML = `
+      <span class="vr-icon">${icon}</span>
+      <div class="vr-info">
+        <div class="vr-name">${v.name}</div>
+        <div class="vr-meta">${v.city} · ${vd ? 'Verified' : 'Pending'}</div>
+      </div>
+      <span class="vr-arrow">›</span>`;
+    div.onclick = () => selectVenue(v.slug);
+    container.appendChild(div);
+  });
+}
+
+function updateStats() {
+  const done = Object.keys(verified).length;
+  document.getElementById('navDone').textContent = done;
+  document.getElementById('exportCount').textContent = done;
+  document.getElementById('listSub').textContent = `${venues[0]?.country || ''} · ${venues.length} venues · ${done} verified`;
+}
+
+function showList() {
+  document.getElementById('formView').style.display = 'none';
+  document.getElementById('listView').style.display = 'flex';
+  renderList();
+}
+
+// ─── FORM ───────────────────────────────────────────────
+const CROWD_LEVELS = ['—','quiet','moderate','busy','peak','closed'];
+const DAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+let crowdState = {};
+let flags = {is_free: false, tour_available: false, audio_available: false};
+let tierCount = 0;
+
+function selectVenue(slug) {
+  currentSlug = slug;
+  try { localStorage.setItem('ol_current', slug); } catch(e) {}
+  const v = venues.find(x => x.slug === slug);
+  const vd = verified[slug] || {};
+  
+  document.getElementById('listView').style.display = 'none';
+  document.getElementById('formView').style.display = 'flex';
+  document.getElementById('formHeaderName').textContent = v.name;
+
+  // Init crowd state
+  crowdState = {};
+  DAYS.forEach(d => crowdState[d] = '—');
+  if (vd.crowd_note) {
+    vd.crowd_note.split(',').forEach(p => {
+      const [day,lvl] = p.trim().split(':');
+      if (day && lvl) crowdState[day] = lvl;
+    });
+  }
+
+  // Init flags
+  flags = {
+    is_free: vd.is_free || false,
+    tour_available: vd.tour_available || false,
+    audio_available: vd.audio_available || false
+  };
+
+  // Parse tiers
+  let tiers = [];
+  if (vd.ticket_tiers) {
+    try { tiers = JSON.parse(vd.ticket_tiers); } catch(e) {}
+  }
+  tierCount = tiers.length;
+
+  const mapsDefault = `https://www.google.com/maps/search/${encodeURIComponent(v.name + ' ' + v.city)}`;
+
+  document.getElementById('formBody').innerHTML = `
+<div style="margin-bottom:.6rem">
+  <div style="font-size:.55rem;color:var(--sub)">${v.country} · ${v.city}</div>
+  <div style="font-size:.6rem;color:var(--sub);margin-top:.2rem;font-style:italic">${v.subtitle || ''}</div>
+  <a href="https://officiallink.org/venue/${v.slug}" target="_blank" style="font-size:.52rem;color:var(--blu)">↗ Live preview</a>
+</div>
+
+<div class="fsec">
+  <div class="fsec-title">🌐 URLs <span class="fsec-badge">Minimum</span></div>
+  <div class="field">
+    <label>Official Website</label>
+    <div class="url-row">
+      <input type="url" id="f-site" placeholder="https://..." value="${vd.website_url || v.site_url || ''}" class="${vd.website_url ? 'confirmed' : ''}" oninput="this.classList.remove('confirmed');updateOpenBtn('site')">
+      <div class="url-actions">
+        <button class="url-btn open-btn" id="open-site" onclick="openUrl('site')" ${(vd.website_url||v.site_url)?'':'disabled'}>↗</button>
+        <button class="url-btn confirm-btn ${vd.website_url?'active':''}" onclick="confirmField('site')">✅</button>
+      </div>
+    </div>
+  </div>
+  <div class="field">
+    <label>Booking / Tickets <span style="font-weight:400;color:var(--dim)">(blank if same as site)</span></label>
+    <div class="url-row">
+      <input type="url" id="f-book" placeholder="https://..." value="${vd.booking_url || v.book_url || ''}" class="${vd.booking_url ? 'confirmed' : ''}" oninput="this.classList.remove('confirmed');updateOpenBtn('book')">
+      <div class="url-actions">
+        <button class="url-btn open-btn" id="open-book" onclick="openUrl('book')" ${(vd.booking_url||v.book_url)?'':'disabled'}>↗</button>
+        <button class="url-btn confirm-btn ${vd.booking_url?'active':''}" onclick="confirmField('book')">✅</button>
+      </div>
+    </div>
+  </div>
+  <div class="field">
+    <label>Google Maps</label>
+    <div class="url-row">
+      <input type="url" id="f-maps" placeholder="https://maps.app.goo.gl/..." value="${vd.maps_url || mapsDefault}" oninput="updateOpenBtn('maps')">
+      <div class="url-actions">
+        <button class="url-btn open-btn" id="open-maps" onclick="openUrl('maps')">↗</button>
+        <button class="url-btn open-btn" onclick="window.open('https://www.google.com/maps/search/${encodeURIComponent(v.name+' '+v.city)}','_blank')">🔍</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="fsec">
+  <div class="fsec-title">💶 Pricing <span class="fsec-badge">Optional</span></div>
+  <div class="field-row">
+    <div class="field">
+      <label>Official Price</label>
+      <input type="text" id="f-price" placeholder="e.g. €15 / Free" value="${vd.price || ''}">
+    </div>
+    <div class="field">
+      <label>Reseller Range</label>
+      <input type="text" id="f-reseller" placeholder="e.g. €30–€50" value="${vd.reseller_range || ''}">
+    </div>
+  </div>
+  <div class="field">
+    <label>Ticket Tiers</label>
+    <div id="tiersContainer">
+      ${tiers.map((t,i) => tierRowHTML(t,i)).join('')}
+    </div>
+    <button class="add-tier-btn" onclick="addTier()">+ Add tier</button>
+  </div>
+</div>
+
+<div class="fsec">
+  <div class="fsec-title">🕐 Hours & Access <span class="fsec-badge">Optional</span></div>
+  <div class="field-row">
+    <div class="field">
+      <label>Opening Hours</label>
+      <input type="text" id="f-hours" placeholder="e.g. Mon–Sun 9–18" value="${vd.hours || ''}">
+    </div>
+    <div class="field">
+      <label>Closed Day(s)</label>
+      <input type="text" id="f-closed" placeholder="e.g. Tuesday" value="${vd.closed_days || ''}">
+    </div>
+    <div class="field">
+      <label>Metro / Transport</label>
+      <input type="text" id="f-metro" placeholder="e.g. Line 1 — Station" value="${vd.metro || ''}">
+    </div>
+    <div class="field">
+      <label>Duration</label>
+      <input type="text" id="f-duration" placeholder="e.g. 1–2 hours" value="${vd.duration || ''}">
+    </div>
+    <div class="field">
+      <label>Audio Guide</label>
+      <input type="text" id="f-audio" placeholder="e.g. €5 / Free app" value="${vd.audio_price || ''}">
+    </div>
+    <div class="field">
+      <label>Photo Policy</label>
+      <input type="text" id="f-photo" placeholder="Allowed / No flash" value="${vd.photo_policy || ''}">
+    </div>
+  </div>
+  <div class="field">
+    <label>Crowd tip</label>
+    <input type="text" id="f-crowd-tip" placeholder="e.g. Friday evenings quietest" value="${vd.crowd_tip || ''}">
+  </div>
+</div>
+
+<div class="fsec">
+  <div class="fsec-title">📅 Crowd Levels <span class="fsec-badge">Tap to cycle</span></div>
+  <div class="crowd-grid" id="crowdGrid"></div>
+  <input type="hidden" id="f-crowd" value="${vd.crowd_note || ''}">
+</div>
+
+<div class="fsec">
+  <div class="fsec-title">🏷 Flags</div>
+  <div class="flag-grid" id="flagGrid"></div>
+</div>`;
+
+  renderCrowdGrid();
+  renderFlags();
+}
+
+function tierRowHTML(t, i) {
+  return `<div class="tier-row" id="tier-${i}">
+    <input type="text" placeholder="Type (Adult...)" value="${t.type||''}" data-ti="${i}" data-tf="type">
+    <input type="text" placeholder="€22" value="${t.price||''}" data-ti="${i}" data-tf="price">
+    <button class="tier-del" onclick="removeTier(${i})">✕</button>
+  </div>`;
+}
+
+function addTier() {
+  const c = document.getElementById('tiersContainer');
+  const div = document.createElement('div');
+  div.innerHTML = tierRowHTML({type:'',price:'',note:''}, Date.now());
+  c.appendChild(div.firstElementChild);
+}
+
+function removeTier(i) {
+  const el = document.getElementById(`tier-${i}`);
+  if (el) el.remove();
+}
+
+function renderCrowdGrid() {
+  const grid = document.getElementById('crowdGrid');
+  if (!grid) return;
+  grid.innerHTML = '';
+  DAYS.forEach(day => {
+    const btn = document.createElement('button');
+    const lvl = crowdState[day] || '—';
+    btn.className = `crowd-day-btn ${lvl === '—' ? '' : lvl}`;
+    btn.innerHTML = `<span class="day-label">${day}</span>${lvl === '—' ? '—' : lvl}`;
+    btn.onclick = () => {
+      const curr = CROWD_LEVELS.indexOf(crowdState[day] || '—');
+      crowdState[day] = CROWD_LEVELS[(curr + 1) % CROWD_LEVELS.length];
+      renderCrowdGrid();
+      updateCrowdHidden();
+    };
+    grid.appendChild(btn);
+  });
+}
+
+function updateCrowdHidden() {
+  const h = document.getElementById('f-crowd');
+  if (h) h.value = DAYS.filter(d => crowdState[d] && crowdState[d] !== '—').map(d => `${d}:${crowdState[d]}`).join(',');
+}
+
+function renderFlags() {
+  const grid = document.getElementById('flagGrid');
+  if (!grid) return;
+  const defs = [
+    {key:'is_free', label:'🆓 Free Entry'},
+    {key:'tour_available', label:'🎫 Tours'},
+    {key:'audio_available', label:'🎧 Audio'},
+  ];
+  grid.innerHTML = '';
+  defs.forEach(({key, label}) => {
+    const btn = document.createElement('button');
+    btn.className = `flag-btn ${flags[key] ? 'active' : ''}`;
+    btn.textContent = label;
+    btn.onclick = () => { flags[key] = !flags[key]; btn.className = `flag-btn ${flags[key] ? 'active' : ''}`; };
+    grid.appendChild(btn);
+  });
+}
+
+function confirmField(type) {
+  const input = document.getElementById(type === 'site' ? 'f-site' : 'f-book');
+  const btn = input.parentElement.querySelector('.confirm-btn');
+  if (input.value.trim().startsWith('http')) {
+    input.classList.add('confirmed');
+    btn.classList.add('active');
+  } else {
+    input.focus();
+  }
+}
+
+function openUrl(type) {
+  const ids = {site:'f-site', book:'f-book', maps:'f-maps'};
+  const url = document.getElementById(ids[type])?.value.trim();
+  if (url && url.startsWith('http')) window.open(url, '_blank');
+}
+
+function updateOpenBtn(type) {
+  const ids = {site:'f-site', book:'f-book', maps:'f-maps'};
+  const btns = {site:'open-site', book:'open-book', maps:'open-maps'};
+  const url = document.getElementById(ids[type])?.value.trim();
+  const btn = document.getElementById(btns[type]);
+  if (!btn) return;
+  btn.disabled = !(url && url.startsWith('http'));
+}
+
+// ─── SAVE ───────────────────────────────────────────────
+function saveVenue() {
+  const v = venues.find(x => x.slug === currentSlug);
+  if (!v) return;
+
+  const site_url = document.getElementById('f-site')?.value.trim();
+  const book_url = document.getElementById('f-book')?.value.trim();
+  const maps_url = document.getElementById('f-maps')?.value.trim();
+  const price     = document.getElementById('f-price')?.value.trim();
+  const reseller  = document.getElementById('f-reseller')?.value.trim();
+  const hours     = document.getElementById('f-hours')?.value.trim();
+  const closed    = document.getElementById('f-closed')?.value.trim();
+  const metro     = document.getElementById('f-metro')?.value.trim();
+  const duration  = document.getElementById('f-duration')?.value.trim();
+  const audio     = document.getElementById('f-audio')?.value.trim();
+  const photo     = document.getElementById('f-photo')?.value.trim();
+  const crowd     = document.getElementById('f-crowd')?.value.trim();
+  const crowd_tip = document.getElementById('f-crowd-tip')?.value.trim();
+
+  if (!site_url && !book_url && !price && !maps_url) {
+    showToast('⚠️ Add at least one URL or price');
+    return;
+  }
+
+  // Collect tiers
+  const tiers = [];
+  document.querySelectorAll('.tier-row').forEach(row => {
+    const inputs = row.querySelectorAll('input');
+    if (inputs[0]?.value.trim()) tiers.push({type: inputs[0].value.trim(), price: inputs[1]?.value.trim()||'', note:''});
+  });
+
+  const data = {
+    name: v.name, slug: v.slug, city: v.city, country: v.country,
+    status: 'verified', verified_by: 'eddie', version: 'gold-v5',
+    timestamp: new Date().toISOString(),
+  };
+
+  if (site_url) { data.website_url = site_url; data.site_enabled = true; }
+  if (book_url) { data.booking_url = book_url; data.book_enabled = true; }
+  if (maps_url && maps_url !== `https://www.google.com/maps/search/${encodeURIComponent(v.name+' '+v.city)}`) data.maps_url = maps_url;
+  if (price) data.price = price;
+  if (reseller) data.reseller_range = reseller;
+  if (tiers.length) data.ticket_tiers = JSON.stringify(tiers);
+  if (hours) data.hours = hours;
+  if (closed) data.closed_days = closed;
+  if (metro) data.metro = metro;
+  if (duration) data.duration = duration;
+  if (audio) data.audio_price = audio;
+  if (photo) data.photo_policy = photo;
+  if (crowd) data.crowd_note = crowd;
+  if (crowd_tip) data.crowd_tip = crowd_tip;
+  if (flags.is_free) data.is_free = true;
+  if (flags.tour_available) data.tour_available = true;
+  if (flags.audio_available) data.audio_available = true;
+
+  verified[currentSlug] = data;
+  persist();
+  updateStats();
+  showToast(`✅ ${v.name} saved`);
+  setTimeout(() => skipVenue(), 500);
+}
+
+function skipVenue() {
+  const idx = venues.findIndex(v => v.slug === currentSlug);
+  if (idx < venues.length - 1) {
+    selectVenue(venues[idx + 1].slug);
+  } else {
+    showList();
+  }
+}
+
+// ─── EXPORT ─────────────────────────────────────────────
+function openExport() {
+  const list = Object.values(verified);
+  if (list.length === 0) { showToast('Nothing verified yet'); return; }
+  document.getElementById('exportSubtitle').textContent = `${list.length} verified venue${list.length>1?'s':''} — ready to inject`;
+  document.getElementById('exportJson').textContent = JSON.stringify(list, null, 2);
+  document.getElementById('exportOverlay').classList.add('open');
+}
+
+function closeExport() {
+  document.getElementById('exportOverlay').classList.remove('open');
+}
+
+function downloadJson() {
+  const list = Object.values(verified);
+  const name = list.length === 1 ? `verified-${list[0].slug}.json` : `verified-${list.length}-venues.json`;
+  const blob = new Blob([JSON.stringify(list, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+  showToast('⬇ Downloaded');
+}
+
+function copyJson() {
+  const text = document.getElementById('exportJson').textContent;
+  const btn = document.getElementById('copyBtn');
+  const fallback = () => {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.cssText = 'position:fixed;opacity:0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); showToast('✅ Copied'); } catch(e) { showToast('Use Download instead'); }
+    document.body.removeChild(ta);
+  };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(text).then(() => showToast('✅ Copied')).catch(fallback);
+  } else fallback();
+}
+
+// ─── TOAST ──────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+// ─── INIT ───────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', checkRestore);
+</script>
+</body>
+</html>
