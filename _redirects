@@ -1,0 +1,6 @@
+/venue/:slug /venue/:slug/index.html 200
+/france/:page /france/:page/index.html 200
+/uk/:page /uk/:page/index.html 200
+/spain/:page /spain/:page/index.html 200
+/italy/:page /italy/:page/index.html 200
+/germany/:page /germany/:page/index.html 200
