@@ -37,7 +37,7 @@ a{color:var(--blue);text-decoration:none}
 .top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
 .top-b{font-weight:800;color:#fff;font-size:.72rem}.top-b span{color:var(--gold)}
 .top-bk{color:var(--sub);font-size:.65rem}
-.hero{position:relative;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#0f1520,#1a2840 45%,#2a3c58)}
+.hero{position:relative;background-image:url(\'/img/venue/disneyland-paris-parc-disneyland.jpg\');background-size:cover;background-position:center;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#0f1520,#1a2840 45%,#2a3c58)}
 .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.1) 40%,rgba(11,13,18,.55) 100%)}
 .hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:3rem 1rem 1.5rem}
 .crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.6rem}
@@ -140,23 +140,25 @@ h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weig
 <h1>Disneyland Paris Parc Disneyland</h1>
 <div class="sub">Disneyland Paris Parc Disneyland</div>
 </div></div>
+<a class="back-btn" href="/france/paris">← France.Html</a>
+
 
 <div class="price-compare">
-<div class="pc-row">
-<div class="pc-label ok">OFFICIAL</div>
-<div class="pc-bar ok">
-<span class="pc-price ok">from €56</span>
-<span style="font-size:.44rem;color:var(--grn);opacity:.7">disneylandparis.com</span>
-</div>
-</div>
-<div class="pc-row">
-<div class="pc-label bad">RESELLERS</div>
-<div class="pc-bar bad">
-<span class="pc-price bad">€80–€130+</span>
-<span style="font-size:.44rem;color:var(--red);opacity:.6">same ticket, markup only</span>
-</div>
-</div>
-<div class="pc-note">Reseller prices based on verified market research.</div>
+  <div class="pc-row">
+    <div class="pc-label ok">OFFICIAL</div>
+    <div class="pc-bar ok">
+      <span class="pc-price ok">from €56</span>
+      <span style="font-size:.44rem;color:var(--grn);opacity:.7">disneylandparis.com</span>
+    </div>
+  </div>
+  <div class="pc-row">
+    <div class="pc-label bad">RESELLERS</div>
+    <div class="pc-bar bad">
+      <span class="pc-price bad">€80–€130+</span>
+      <span style="font-size:.44rem;color:var(--red);opacity:.6">same ticket, markup only</span>
+    </div>
+  </div>
+  <div class="pc-note">Reseller prices based on verified market research.</div>
 </div>
 <div class="toggles"><div class="tg on"><span class="tg-icon">📍</span> Marne-la-Vallée, 35 min from Paris</div>
 <div class="tg on"><span class="tg-icon">🚇</span> RER A — Marne-la-Vallée/Chessy station</div>
@@ -165,45 +167,46 @@ h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weig
 <div class="tg on"><span class="tg-icon">🆓</span> Free for children under 3</div>
 <div class="tg on"><span class="tg-icon">♿</span> Accessibility options available</div></div>
 <div class="tix-wrap">
-<div class="tix-title">Admission prices 2026 (1-day, 1-park)</div>
-<div class="tix">
-<div class="tix-card">
-<div class="tix-type">Adult (Eco/low)</div>
-<div class="tix-price">from €56</div>
-<div class="tix-note">Weekdays off-peak</div>
-</div>
-<div class="tix-card">
-<div class="tix-type">Adult (peak)</div>
-<div class="tix-price">up to €130</div>
-<div class="tix-note">2-park same day</div>
-</div>
-<div class="tix-card">
-<div class="tix-type">Child 3–11</div>
-<div class="tix-price">from €51</div>
-<div class="tix-note">1-park Eco</div>
-</div>
-<div class="tix-card">
-<div class="tix-type">Under 3</div>
-<div class="tix-price" style="color:var(--grn)">Free</div>
-<div class="tix-note">All year</div>
-</div>
-</div>
+  <div class="tix-title">Admission prices 2026 (1-day, 1-park)</div>
+  <div class="tix">
+    <div class="tix-card">
+      <div class="tix-type">Adult (Eco/low)</div>
+      <div class="tix-price">from €56</div>
+      <div class="tix-note">Weekdays off-peak</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Adult (peak)</div>
+      <div class="tix-price">up to €130</div>
+      <div class="tix-note">2-park same day</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Child 3–11</div>
+      <div class="tix-price">from €51</div>
+      <div class="tix-note">1-park Eco</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Under 3</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">All year</div>
+    </div>
+  </div>
 </div>
 <div class="alert"><div class="alert-inner">⚠️ Official site is <strong>disneylandparis.com</strong> — any other site charging more is a reseller.</div></div>
 <div class="about sec"><div class="sec-t">About</div><p>Disneyland Paris Parc Disneyland is a notable attraction in Paris offering visitors an authentic experience of the area's culture, heritage, and distinctive character that goes beyond surface-level tourism. The site combines historical or cultural significance with practical visitor amenities, making it accessible for travellers of all types and interests. Allow adequate time for a thorough visit — rushing through misses the details and atmosphere that make this place worth the journey. Check the official website for current opening hours and seasonal variations.</p></div>
 <div class="sec">
-<div class="sec-t">Crowd levels by day</div>
-<div class="crowd-wrap">
-<div class="crowd-row"><span class="crowd-day">Mon</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:55%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
-<div class="crowd-row"><span class="crowd-day">Tue</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
-<div class="crowd-row"><span class="crowd-day">Wed</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
-<div class="crowd-row"><span class="crowd-day">Thu</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:38%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
-<div class="crowd-row"><span class="crowd-day">Fri</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:60%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
-<div class="crowd-row"><span class="crowd-day">Sat</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:95%"></div></div><span class="crowd-lbl c-high-l">Very Busy</span></div>
-<div class="crowd-row"><span class="crowd-day">Sun</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:90%"></div></div><span class="crowd-lbl c-high-l">Very Busy</span></div>
+  <div class="sec-t">Crowd levels by day</div>
+  <div class="crowd-wrap">
+    <div class="crowd-row"><span class="crowd-day">Mon</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:55%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+    <div class="crowd-row"><span class="crowd-day">Tue</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
+    <div class="crowd-row"><span class="crowd-day">Wed</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
+    <div class="crowd-row"><span class="crowd-day">Thu</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:38%"></div></div><span class="crowd-lbl c-low-l">Quieter</span></div>
+    <div class="crowd-row"><span class="crowd-day">Fri</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:60%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+    <div class="crowd-row"><span class="crowd-day">Sat</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:95%"></div></div><span class="crowd-lbl c-high-l">Very Busy</span></div>
+    <div class="crowd-row"><span class="crowd-day">Sun</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:90%"></div></div><span class="crowd-lbl c-high-l">Very Busy</span></div>
+  </div>
+  <div class="crowd-tip"><strong>Best time:</strong> Tuesday–Thursday in May/June or September–October. Avoid school holiday periods and weekends — prices are also lower on off-peak weekdays.</div>
 </div>
-<div class="crowd-tip"><strong>Best time:</strong> Tuesday–Thursday in May/June or September–October. Avoid school holiday periods and weekends — prices are also lower on off-peak weekdays.</div>
-</div>
+<div class="venue-photo-bottom" style="width:100%;height:200px;background-image:url('/img/venue/disneyland-paris-parc-disneyland.jpg');background-size:cover;background-position:center;border-radius:var(--r);margin-bottom:1.4rem;opacity:.7"></div>
 <div class="sec"><div class="sec-t">FAQ</div><div class="fq"><div class="fq-q">How much does Disneyland Paris Parc Disneyland cost?</div><div class="fq-a">Check official website for current prices.</div></div>
 <div class="fq"><div class="fq-q">What is the official website?</div><div class="fq-a">Awaiting verification</div></div></div>
 <a class="back-btn" href="/france/paris">← France.Html</a>
