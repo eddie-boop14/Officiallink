@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Midnight Sun Tromsø — Official Links | officiallink.org</title>
+<meta content="Midnight Sun Tromsø — 24-hour daylight from approximately 20 May to 22 July. Free natural phenomenon. No ticket needed. Official links on officiallink.org" name="description"/>
+<link href="https://officiallink.org/norway/midnight-sun" rel="canonical"/>
+<meta content="Midnight Sun Tromsø — officiallink.org" property="og:title"/>
+<meta content="24-hour daylight from approximately 20 May to 22 July. Free natural phenomenon. No ticket needed." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://officiallink.org/norway/midnight-sun" property="og:url"/>
+<meta content="officiallink.org" property="og:site_name"/>
+<meta content="https://officiallink.org/img/venue/midnight-sun.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://officiallink.org/img/venue/midnight-sun.jpg" name="twitter:image"/>
+<meta content="index, follow" name="robots"/>
+<meta content="en" property="og:locale"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristAttraction","name":"Midnight Sun Tromsø","description":"Natural phenomenon in Tromsø producing 24-hour daylight from approximately 20 May to 22 July each year. Best observed from Fjellheisen summit or Telegrafbukta beach.","url":"https://officiallink.org/norway/midnight-sun","address":{"@type":"PostalAddress","addressLocality":"Tromsø","addressCountry":"Norway"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://officiallink.org/"},{"@type":"ListItem","position":2,"name":"Tromsø Attractions","item":"https://officiallink.org/norway/tromso"},{"@type":"ListItem","position":3,"name":"Norway","item":"https://officiallink.org/norway"},{"@type":"ListItem","position":4,"name":"Midnight Sun Tromsø"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"When does the midnight sun occur in Tromsø?","acceptedAnswer":{"@type":"Answer","text":"The sun does not set in Tromsø from approximately 20 May to 22 July each year — around 63 days of continuous daylight. The exact dates vary slightly each year. Outside this window, Tromsø experiences very long days from late April through late August."}},{"@type":"Question","name":"Is the midnight sun free to see?","acceptedAnswer":{"@type":"Answer","text":"Yes. The midnight sun is a natural phenomenon visible from anywhere outdoors. No ticket is required. Any website selling a 'midnight sun ticket' is selling a tour or cable car ride — not access to the sun itself."}},{"@type":"Question","name":"Where is the best place to see the midnight sun in Tromsø?","acceptedAnswer":{"@type":"Answer","text":"Elevated viewpoints give the clearest unobstructed view of the sun on the horizon at midnight. Fjellheisen cable car summit (421 m) is the most popular. Telegrafbukta beach at the southern tip of Tromsøya is a free ground-level alternative with open westward views. Storsteinen mountain and Tromsdalstinden are reachable by hiking."}},{"@type":"Question","name":"Does the midnight sun affect sleep?","acceptedAnswer":{"@type":"Answer","text":"Continuous daylight disrupts normal sleep patterns. Most Tromsø hotels provide blackout curtains. Bringing a sleep mask is recommended for visitors sensitive to light. The body's circadian rhythm continues to function on a 24-hour cycle regardless of external light levels."}},{"@type":"Question","name":"Do I need a guide to see the midnight sun?","acceptedAnswer":{"@type":"Answer","text":"No guide is needed. The midnight sun is visible from any outdoor location in Tromsø with a clear sky. Organised midnight sun tours are available through local operators but are not required to view the phenomenon. Check visittromso.no for weather forecasts and current conditions."}}]}</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--grn:#2db34a;--grn-bg:rgba(45,179,74,.07);--red:#e04848;--red-bg:rgba(224,72,72,.06);--blue:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ss);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.why-strip{background:linear-gradient(135deg,#0d1a0d,#121f10);border-bottom:1px solid rgba(45,179,74,.2);padding:.45rem .8rem;text-align:center;font-size:.48rem;color:var(--grn);font-weight:600;letter-spacing:.02em}
+.hero{position:relative;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#1a1505,#2a2008 45%,#352a0a)}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.05) 40%,rgba(11,13,18,.45) 100%)}
+.hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:3rem 1rem 1.5rem}
+.crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.6rem}.crumb a{color:rgba(255,255,255,.4)}
+.badge-row{display:flex;gap:.3rem;margin-bottom:.5rem;flex-wrap:wrap}
+.badge{font-size:.48rem;font-weight:700;padding:.18rem .5rem;border-radius:20px;letter-spacing:.03em}
+.b-v{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+.b-f{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weight:700;line-height:1.08;margin-bottom:.2rem}
+.sub{font-size:.78rem;color:rgba(255,255,255,.45);font-weight:300}
+.vc-confirmed{background:linear-gradient(135deg,#1a2a15,#1a3318);border:1px solid rgba(52,199,89,.3);border-radius:8px;padding:.5rem .7rem;margin:.3rem 0;display:flex;align-items:center;gap:.5rem}
+.vc-icon{font-size:1rem}
+.vc-text{font-size:.48rem;color:#34c759;font-weight:700;line-height:1.4}
+.vc-date{font-size:.4rem;color:rgba(52,199,89,.5)}
+.hero-photo{width:100%;max-height:220px;object-fit:cover;border-radius:0 0 8px 8px;display:block}
+.free-banner{max-width:800px;margin:0 auto;padding:.6rem .8rem}
+.fb-inner{background:var(--grn-bg);border:1px solid rgba(45,179,74,.2);border-radius:8px;padding:.7rem 1rem;display:flex;align-items:center;gap:.6rem}
+.fb-icon{font-size:1.4rem}
+.fb-text{font-size:.6rem;color:var(--grn);font-weight:700;line-height:1.5}
+.fb-sub{font-size:.5rem;color:rgba(45,179,74,.6);font-weight:400}
+.tix-wrap{max-width:800px;margin:0 auto;padding:.4rem .8rem}
+.tix-title{font-size:.5rem;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.4rem}
+.tix{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.35rem}
+@media(max-width:500px){.tix{grid-template-columns:1fr 1fr}}
+.tix-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.tix-type{font-size:.48rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.15rem}
+.tix-price{font-family:var(--sf);font-size:1.1rem;color:#fff;font-weight:700}
+.tix-note{font-size:.5rem;color:var(--sub);margin-top:.1rem;line-height:1.4}
+.toggles{display:flex;flex-wrap:wrap;gap:.3rem;padding:.4rem .6rem;max-width:800px;margin:0 auto}
+.tg{display:flex;align-items:center;gap:.25rem;padding:.25rem .5rem;border-radius:6px;font-size:.45rem;font-weight:600;border:1px solid}
+.tg.on{background:rgba(45,179,74,.08);color:var(--grn);border-color:rgba(45,179,74,.2)}
+.tg.off{background:var(--s1);color:var(--dim);border-color:var(--bdr)}
+.tg-icon{font-size:.55rem}
+.alert{max-width:800px;margin:0 auto;padding:0 1rem}
+.alert-inner.green{background:var(--grn-bg);border:1px solid rgba(45,179,74,.15);border-radius:var(--r);padding:.6rem .8rem;font-size:.6rem;color:#7a9;display:flex;align-items:center;gap:.5rem}
+.alert-inner.green strong{color:var(--grn)}
+.main{max-width:800px;margin:0 auto;padding:1rem 1rem 5rem}
+.sec{margin-bottom:1.2rem}
+.sec-t{font-family:var(--sf);font-size:1.05rem;color:var(--gold);font-weight:600;margin-bottom:.4rem;padding-bottom:.3rem;border-bottom:1px solid var(--bdr)}
+.about{font-size:.75rem;color:var(--sub);line-height:1.75}
+.about strong{color:var(--ink)}
+.about p{margin-bottom:.4rem}
+.viewpoints{display:grid;grid-template-columns:1fr 1fr;gap:.35rem;margin-top:.5rem}
+@media(max-width:500px){.viewpoints{grid-template-columns:1fr}}
+.vp-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.vp-name{font-size:.52rem;font-weight:800;color:var(--gold);margin-bottom:.15rem}
+.vp-desc{font-size:.5rem;color:var(--sub);line-height:1.5}
+.vp-tag{display:inline-block;font-size:.4rem;font-weight:700;padding:.1rem .35rem;border-radius:4px;margin-top:.2rem}
+.vp-tag.free{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.2)}
+.vp-tag.paid{background:rgba(212,168,67,.08);color:var(--gold);border:1px solid rgba(212,168,67,.2)}
+.crowd-wrap{display:flex;flex-direction:column;gap:.25rem}
+.crowd-row{display:flex;gap:.35rem;align-items:center}
+.crowd-day{width:22px;font-size:.5rem;font-weight:700;color:var(--sub);flex-shrink:0}
+.crowd-bar{flex:1;height:9px;background:var(--s2);border-radius:5px;overflow:hidden}
+.crowd-fill{height:100%;border-radius:5px}
+.crowd-lbl{width:50px;font-size:.44rem;font-weight:700;text-align:right;flex-shrink:0}
+.c-low{background:linear-gradient(90deg,var(--grn),#1d8a30)}.c-low-l{color:var(--grn)}
+.c-med{background:linear-gradient(90deg,#d4a843,#b8902f)}.c-med-l{color:var(--gold)}
+.c-high{background:linear-gradient(90deg,var(--red),#c03)}.c-high-l{color:var(--red)}
+.crowd-tip{font-size:.5rem;color:var(--sub);margin-top:.45rem;line-height:1.65;background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.45rem .65rem}
+.crowd-tip strong{color:var(--ink)}
+.venue-photo-bottom{width:100%;height:200px;background-image:url('/img/venue/midnight-sun.jpg');background-size:cover;background-position:center;border-radius:var(--r);margin-bottom:1.4rem;opacity:.7}
+.fq{border-bottom:1px solid var(--bdr)}
+.fq-q{font-size:.72rem;font-weight:600;color:#fff;cursor:pointer;padding:.6rem 0;display:flex;justify-content:space-between;align-items:center}
+.fq-q::after{content:'\25be';color:var(--gold);font-size:.6rem;transition:transform .2s}
+.fq.open .fq-q::after{transform:rotate(180deg)}
+.fq-a{font-size:.65rem;color:var(--sub);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s}
+.fq.open .fq-a{max-height:300px;padding-bottom:.5rem}
+.claim{background:var(--s1);border:1px dashed var(--bdr);border-radius:var(--r);padding:1rem;text-align:center;margin-top:1.5rem}
+.claim-t{font-family:var(--sf);color:var(--gold);font-size:.95rem;margin-bottom:.2rem}
+.claim-txt{font-size:.6rem;color:var(--sub);margin-bottom:.5rem}
+.claim-btn{display:inline-flex;padding:.4rem .8rem;border-radius:5px;font-size:.62rem;font-weight:700;background:rgba(212,168,67,.08);color:var(--gold);border:1px solid rgba(212,168,67,.18)}
+.footer{max-width:800px;margin:0 auto;padding:1rem;text-align:center;border-top:1px solid var(--bdr)}
+.footer p{font-size:.5rem;color:var(--dim);line-height:1.7}
+.footer a{color:var(--gold)}
+.sticky{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(11,13,18,.95);backdrop-filter:blur(16px);border-top:1px solid var(--bdr);padding:.55rem .8rem;display:flex;gap:.4rem;justify-content:center}
+.sticky a{flex:1;max-width:200px;text-align:center;padding:.6rem .5rem;border-radius:8px;font-size:.72rem;font-weight:700;transition:all .15s;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:.3rem}
+.sticky a:hover{transform:translateY(-1px)}
+.s-free{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 2px 12px rgba(45,179,74,.25)}
+.s-site{background:var(--s1);color:var(--blue);border:1px solid var(--bdr)}
+.s-map{background:var(--s1);color:var(--sub);border:1px solid var(--bdr)}
+.car-sec{margin-bottom:1.4rem}
+.car-wrap{position:relative;overflow:hidden;border-radius:var(--r)}
+.car-track{display:flex;transition:transform .35s ease;will-change:transform}
+.car-slide{flex:0 0 80%;max-width:320px;margin-right:.5rem;border-radius:8px;overflow:hidden;background:var(--s1);border:1px solid var(--bdr)}
+@media(min-width:600px){.car-slide{flex:0 0 45%;max-width:380px}}
+.car-img{width:100%;height:200px;object-fit:cover;display:block;background:var(--s2)}
+.car-cap{padding:.4rem .55rem .5rem;font-size:.42rem;color:var(--dim);line-height:1.5}
+.car-cap a{color:var(--dim);text-decoration:underline;text-underline-offset:2px}
+.car-btn{position:absolute;top:50%;transform:translateY(-60%);width:28px;height:28px;border-radius:50%;background:rgba(11,13,18,.75);border:1px solid var(--bdr);color:#fff;font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;backdrop-filter:blur(6px);transition:background .15s}
+.car-btn:hover{background:rgba(212,168,67,.15);border-color:rgba(212,168,67,.3)}
+.car-prev{left:.4rem}.car-next{right:.4rem}
+.car-dots{display:flex;justify-content:center;gap:.3rem;margin-top:.5rem}
+.car-dot{width:5px;height:5px;border-radius:50%;background:var(--bdr);transition:background .2s;cursor:pointer}
+.car-dot.active{background:var(--gold)}
+.back-btn{display:block;max-width:800px;margin:.5rem auto;padding:0 .8rem}
+.back-btn a{display:inline-flex;align-items:center;gap:.3rem;font-size:.6rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.35rem .7rem;text-decoration:none;transition:color .15s,border-color .15s}
+.back-btn a:hover{color:var(--gold);border-color:rgba(212,168,67,.3)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero-in>*{animation:up .5s ease-out backwards}
+.badge-row{animation-delay:.05s}h1{animation-delay:.1s}.sub{animation-delay:.15s}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <span class="tl">official<span>link</span>.org</span>
+</div>
+
+<div class="why-strip">🆓 Free natural phenomenon — visittromso.no is the official source for conditions and viewpoint info</div>
+
+<div class="hero">
+  <div class="hero-in">
+    <div class="crumb">
+      <a href="/">Home</a> › <a href="/norway/tromso">← Tromsø</a> › <a href="/norway">Norway</a> › Midnight Sun Tromsø
+    </div>
+    <div class="badge-row">
+      <span class="badge b-v">✓ Verified</span>
+      <span class="badge b-f">Tromsø</span>
+      <span class="badge" style="background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)">🆓 Free</span>
+    </div>
+    <h1>Midnight Sun Tromsø</h1>
+    <div class="sub">Continuous daylight ~20 May to 22 July — sun sits on the horizon at midnight, producing extended golden-hour light</div>
+    <div class="vc-confirmed">
+      <span class="vc-icon">🔒</span>
+      <div>
+        <div class="vc-text">Free natural phenomenon — no ticket exists</div>
+        <div class="vc-date">visittromso.no</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<img alt="Midnight Sun Tromsø" class="hero-photo" src="/img/venue/midnight-sun.jpg"/>
+
+<div class="free-banner">
+  <div class="fb-inner">
+    <span class="fb-icon">☀️</span>
+    <div>
+      <div class="fb-text">Free to see — no ticket required</div>
+      <div class="fb-sub">Any site selling a "midnight sun ticket" is selling a tour or cable car ride — not access to the sun</div>
+    </div>
+  </div>
+</div>
+
+<div class="tix-wrap">
+  <div class="tix-title">Viewpoint access costs</div>
+  <div class="tix">
+    <div class="tix-card">
+      <div class="tix-type">Midnight Sun</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">Visible from any outdoor location — no charge</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Telegrafbukta</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">Public beach — no entry fee</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Fjellheisen Cable Car</div>
+      <div class="tix-price">⚠️ verify</div><!-- UNVERIFIED -->
+      <div class="tix-note">Separate paid ticket — fjellheisen.no</div>
+    </div>
+  </div>
+</div>
+
+<div class="toggles">
+  <div class="tg on"><span class="tg-icon">📍</span> Tromsø, Norway</div>
+  <div class="tg on"><span class="tg-icon">📅</span> ~20 May to 22 July annually</div>
+  <div class="tg on"><span class="tg-icon">🕐</span> 24-hour daylight — sun never sets during season</div>
+  <div class="tg on"><span class="tg-icon">⏱</span> Best viewed around midnight — sun at lowest point</div>
+  <div class="tg on"><span class="tg-icon">🌤</span> Clear skies required — check forecast</div>
+</div>
+
+<div class="alert">
+  <div class="alert-inner green">✅ Free to see — no ticket needed. <strong>visittromso.no</strong> is the official source for conditions and viewpoint guidance.</div>
+</div>
+
+<div class="main">
+
+  <div class="about sec">
+    <div class="sec-t">About</div>
+    <p>Tromsø is located at 69.6°N, approximately 350 kilometres above the Arctic Circle. At this latitude, <strong>the sun does not set for approximately 63 days each year</strong>, from around 20 May to 22 July. During this period the sun traces a continuous arc around the horizon, dipping to its lowest point — typically 3 to 7 degrees above the horizon — around midnight local time. This produces a persistent orange-gold low-angle light across the landscape that differs from standard daytime light at all hours. Outside this core window, Tromsø experiences very long days from late April through late August, with only a brief period of civil twilight at night.</p>
+    <p>The phenomenon is caused by the axial tilt of the Earth. Tromsø's position within the auroral oval means it also experiences the polar night — the opposite effect — from approximately 27 November to 15 January, when the sun does not rise. <strong>The midnight sun season coincides with Tromsø's peak summer tourism period</strong>. Fjellheisen cable car summit at 421 metres above sea level is the most frequently visited elevated viewpoint; from there the sun is visible on the horizon with unobstructed 360-degree views over the island and surrounding fjords. Telegrafbukta beach at the southern tip of Tromsøya provides an accessible free ground-level alternative with westward views across the water toward the Lyngen Alps.</p>
+    <p>No ticket, booking, or guide is required to see the midnight sun. It is visible from any outdoor location in Tromsø with a clear sky. Cloud cover is the primary limiting factor; <strong>Tromsø averages approximately 50–60% cloud cover in summer</strong>, so clear nights are not guaranteed. A sleep mask or blackout curtains are advisable for visitors sensitive to continuous light. Most Tromsø hotels provide blackout curtains. The official tourism organisation for the region, Visit Tromsø, publishes practical visitor information at visittromso.no.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">Best viewpoints</div>
+    <div class="viewpoints">
+      <div class="vp-card">
+        <div class="vp-name">Fjellheisen Cable Car Summit</div>
+        <div class="vp-desc">421 m elevation. Unobstructed 360° panorama over Tromsø and surrounding fjords. Cable car runs until late evening in summer.</div>
+        <span class="vp-tag paid">Paid cable car ticket · fjellheisen.no</span>
+      </div>
+      <div class="vp-card">
+        <div class="vp-name">Telegrafbukta Beach</div>
+        <div class="vp-desc">Southern tip of Tromsøya. Sandy beach with open westward views toward Lyngen Alps. Popular gathering point during midnight sun season.</div>
+        <span class="vp-tag free">Free · public access</span>
+      </div>
+      <div class="vp-card">
+        <div class="vp-name">Storsteinen (421 m)</div>
+        <div class="vp-desc">Accessible by hiking trail from Tromsdalen. Same elevation as Fjellheisen summit. No cable car required.</div>
+        <span class="vp-tag free">Free · hiking trail</span>
+      </div>
+      <div class="vp-card">
+        <div class="vp-name">Tromsø City Centre Waterfront</div>
+        <div class="vp-desc">Harbour promenade gives clear northward views. No elevation — best for ambient midnight light rather than horizon sun.</div>
+        <span class="vp-tag free">Free · public access</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHOTOS -->
+  <script id="venue-photos" type="application/json">[]</script>
+  <div class="sec car-sec" id="photo-sec" style="display:none">
+    <div class="sec-t">Photos</div>
+    <div id="carousel-mount"></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">Crowd levels at viewpoints by day</div>
+    <div class="crowd-wrap">
+      <div class="crowd-row"><span class="crowd-day">Mon</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:30%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Tue</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:30%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Wed</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Thu</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:45%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Fri</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:55%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sat</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:90%"></div></div><span class="crowd-lbl c-high-l">Peak</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sun</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:80%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+    </div>
+    <div class="crowd-tip"><strong>Best time:</strong> Fjellheisen summit at midnight on a weekday offers the most unobstructed experience. Saturday midnight draws the largest crowds to both the cable car and Telegrafbukta. Telegrafbukta is always free and less crowded than the cable car summit, and the westward orientation gives a clear view of the sun sitting on the water. Bring warm layers — temperatures at 421 m are 5–8°C cooler than the city even in summer.</div>
+  </div>
+
+  <div class="venue-photo-bottom"></div>
+
+  <div class="sec">
+    <div class="sec-t">FAQ</div>
+    <div class="fq">
+      <div class="fq-q">When does the midnight sun occur in Tromsø?</div>
+      <div class="fq-a">The sun does not set in Tromsø from approximately 20 May to 22 July each year — around 63 days of continuous daylight. The exact dates shift slightly year to year. Outside this window, Tromsø still experiences very long days from late April through late August, with only brief twilight periods.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Is the midnight sun free to see?</div>
+      <div class="fq-a">Yes. The midnight sun is a natural phenomenon visible from anywhere outdoors in Tromsø. No ticket is required. Any website selling a "midnight sun ticket" or "midnight sun experience" is selling a tour, cable car ride, or boat trip — not access to the sun itself, which is always free.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Where is the best place to see the midnight sun in Tromsø?</div>
+      <div class="fq-a">Elevated viewpoints provide the clearest unobstructed view of the sun on the horizon at midnight. Fjellheisen cable car summit (421 m) is the most popular paid option. Telegrafbukta beach at the southern tip of Tromsøya is the best free ground-level viewpoint, with open westward views. Storsteinen mountain is reachable on foot for a free elevated view.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Does the midnight sun affect sleep in Tromsø?</div>
+      <div class="fq-a">Continuous daylight disrupts sleep patterns for many visitors. Most Tromsø hotels provide blackout curtains. A sleep mask is recommended for visitors sensitive to light. The effect varies by individual; some visitors adapt within a day or two.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Do I need a guide to see the midnight sun?</div>
+      <div class="fq-a">No guide is needed. The midnight sun is visible from any outdoor location with a clear sky. Organised midnight sun tours are available through local operators but are optional. Check visittromso.no for weather forecasts and practical visiting information.</div>
+    </div>
+  </div>
+
+  <div class="claim">
+    <div class="claim-t">🕵 Claim this mission</div>
+    <div class="claim-txt">Help verify viewing conditions, best dates, or viewpoint access for Midnight Sun Tromsø.<br/>Submit verified info and earn points on the leaderboard.</div>
+    <span class="claim-btn">Enroll as Detective →</span>
+  </div>
+
+  <div class="footer">
+    <p>Midnight Sun Tromsø · <a href="/norway">Norway</a> · <a href="/norway/tromso">← Tromsø</a> · <a href="/">officiallink.org</a><br/>
+    <span style="font-size:.35rem;color:var(--dim)">📷 Photo · Wikimedia Commons · CC BY-SA 4.0</span></p>
+  </div>
+
+</div>
+
+<div class="sticky">
+  <a class="s-free" href="https://www.visittromso.no" target="_blank" rel="noopener">🆓 Free — No Ticket</a>
+  <a class="s-site" href="https://www.visittromso.no" target="_blank" rel="noopener">🌐 visittromso.no ✅</a>
+  <a class="s-map" href="https://www.google.com/maps/place/Telegrafbukta/@69.6348,18.9034,15z" target="_blank" rel="noopener">📍 Telegrafbukta ✅</a>
+</div>
+
+<script defer src="/detective-layer.js"></script>
+<script defer src="/site.js"></script>
+</body>
+</html>
+
