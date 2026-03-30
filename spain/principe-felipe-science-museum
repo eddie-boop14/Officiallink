@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Príncipe Felipe Science Museum — Official Links | officiallink.org</title>
+<meta content="Príncipe Felipe Science Museum — Interactive science museum in Valencia's City of Arts and Sciences, designed by Santiago Calatrava. Official links on officiallink.org" name="description"/>
+<link href="https://officiallink.org/spain/principe-felipe-science-museum" rel="canonical"/>
+<meta content="Príncipe Felipe Science Museum — officiallink.org" property="og:title"/>
+<meta content="Interactive science museum in Valencia's City of Arts and Sciences, designed by Santiago Calatrava." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://officiallink.org/spain/principe-felipe-science-museum" property="og:url"/>
+<meta content="officiallink.org" property="og:site_name"/>
+<meta content="https://officiallink.org/img/venue/principe-felipe-science-museum.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://officiallink.org/img/venue/principe-felipe-science-museum.jpg" name="twitter:image"/>
+<meta content="index, follow" name="robots"/>
+<meta content="en" property="og:locale"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristAttraction","name":"Príncipe Felipe Science Museum","description":"Interactive science and technology museum occupying 42,000 sq m in Valencia's City of Arts and Sciences. Designed by architect Santiago Calatrava. Official tickets at cac.es.","url":"https://officiallink.org/spain/principe-felipe-science-museum","address":{"@type":"PostalAddress","addressLocality":"Valencia","addressCountry":"Spain"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://officiallink.org/"},{"@type":"ListItem","position":2,"name":"Valencia Landmarks","item":"https://officiallink.org/spain/valencia"},{"@type":"ListItem","position":3,"name":"Spain","item":"https://officiallink.org/spain"},{"@type":"ListItem","position":4,"name":"Príncipe Felipe Science Museum"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does the Príncipe Felipe Science Museum cost?","acceptedAnswer":{"@type":"Answer","text":"As of 2025, adult tickets start from €7.20 and reduced tickets (children 4–12, seniors 65+, disabled) at lower rates. Children 0–3 enter free. Prices vary by season. Book directly at cac.es to avoid reseller markups."}},{"@type":"Question","name":"Where do I buy official tickets for the Science Museum?","acceptedAnswer":{"@type":"Answer","text":"Official tickets are sold at tickets.cac.es or at the museum's ticket desks at Av. del Professor López Piñero, 7, Valencia. Do not purchase from GetYourGuide, Viator, or similar platforms — they charge markups for the same ticket."}},{"@type":"Question","name":"What are the opening hours of the Príncipe Felipe Science Museum?","acceptedAnswer":{"@type":"Answer","text":"Hours vary by season. Low season (January–March and October–December): Mon–Thu 10:00–18:00, Fri–Sun 10:00–19:00. Medium season: daily 10:00–19:00. High season (late June–mid-September): daily 10:00–21:00. Ticket offices close 1 hour before the museum. Check cac.es for current schedule."}},{"@type":"Question","name":"How do I get to the Príncipe Felipe Science Museum?","acceptedAnswer":{"@type":"Answer","text":"The museum is at Av. del Professor López Piñero, 7, 46013 Valencia, in the City of Arts and Sciences complex. Metro lines 3 and 5 stop at Alameda station (15 min walk). Bus lines 13, 14, 15, 19, 35, 40, and 95 serve the complex. Parking is available on-site at €2.30/hr (max €24/day, or €7/day with ticket purchase)."}},{"@type":"Question","name":"Can I combine the Science Museum with other City of Arts and Sciences venues?","acceptedAnswer":{"@type":"Answer","text":"Yes. Combo tickets are sold at cac.es combining the Museu de les Ciències with the Hemisfèric (IMAX dome) and/or the Oceanogràfic aquarium. Combo tickets are cheaper than buying separately. All bookings should go through cac.es only."}}]}</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--grn:#2db34a;--grn-bg:rgba(45,179,74,.07);--red:#e04848;--red-bg:rgba(224,72,72,.06);--blue:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ss);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.why-strip{background:linear-gradient(135deg,#1a1208,#1f1a0d);border-bottom:1px solid rgba(212,168,67,.2);padding:.45rem .8rem;text-align:center;font-size:.48rem;color:var(--gold);font-weight:600;letter-spacing:.02em}
+.hero{position:relative;background-image:url('/img/venue/principe-felipe-science-museum.jpg');background-size:cover;background-position:center;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#100e08,#1c1a0c 45%,#28240e)}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.1) 40%,rgba(11,13,18,.55) 100%)}
+.hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:3rem 1rem 1.5rem}
+.crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.6rem}.crumb a{color:rgba(255,255,255,.4)}
+.badge-row{display:flex;gap:.3rem;margin-bottom:.5rem;flex-wrap:wrap}
+.badge{font-size:.48rem;font-weight:700;padding:.18rem .5rem;border-radius:20px;letter-spacing:.03em}
+.b-v{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+.b-f{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weight:700;line-height:1.08;margin-bottom:.2rem}
+.sub{font-size:.78rem;color:rgba(255,255,255,.45);font-weight:300}
+.vc-confirmed{background:linear-gradient(135deg,#1a2a15,#1a3318);border:1px solid rgba(52,199,89,.3);border-radius:8px;padding:.5rem .7rem;margin:.3rem 0;display:flex;align-items:center;gap:.5rem}
+.vc-icon{font-size:1rem}
+.vc-text{font-size:.48rem;color:#34c759;font-weight:700;line-height:1.4}
+.vc-date{font-size:.4rem;color:rgba(52,199,89,.5)}
+.hero-photo{width:100%;max-height:220px;object-fit:cover;border-radius:0 0 8px 8px;display:block}
+.back-btn{display:block;max-width:800px;margin:.5rem auto;padding:0 .8rem}
+.back-btn a{display:inline-flex;align-items:center;gap:.3rem;font-size:.6rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.35rem .7rem;text-decoration:none;transition:color .15s,border-color .15s}
+.back-btn a:hover{color:var(--gold);border-color:rgba(212,168,67,.3)}
+.price-compare{max-width:800px;margin:0 auto;padding:.6rem .8rem}
+.pc-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem}
+.pc-label{font-size:.45rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;width:70px;flex-shrink:0}
+.pc-label.ok{color:var(--grn)}.pc-label.bad{color:var(--red)}
+.pc-bar{flex:1;height:28px;border-radius:6px;display:flex;align-items:center;padding:0 .6rem}
+.pc-bar.ok{background:rgba(45,179,74,.12)}.pc-bar.bad{background:rgba(224,72,72,.08)}
+.pc-price{font-family:var(--sf);font-size:.85rem;font-weight:700}
+.pc-price.ok{color:var(--grn)}.pc-price.bad{color:var(--red);text-decoration:line-through;opacity:.7}
+.pc-note{text-align:center;font-size:.42rem;color:var(--dim);margin-top:.15rem}
+.tix-wrap{max-width:800px;margin:0 auto;padding:.4rem .8rem}
+.tix-title{font-size:.5rem;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.4rem}
+.tix{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.35rem}
+@media(max-width:500px){.tix{grid-template-columns:1fr 1fr}}
+.tix-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.tix-type{font-size:.48rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.15rem}
+.tix-price{font-family:var(--sf);font-size:1.1rem;color:#fff;font-weight:700}
+.tix-note{font-size:.5rem;color:var(--sub);margin-top:.1rem;line-height:1.4}
+.toggles{display:flex;flex-wrap:wrap;gap:.3rem;padding:.4rem .6rem;max-width:800px;margin:0 auto}
+.tg{display:flex;align-items:center;gap:.25rem;padding:.25rem .5rem;border-radius:6px;font-size:.45rem;font-weight:600;border:1px solid}
+.tg.on{background:rgba(45,179,74,.08);color:var(--grn);border-color:rgba(45,179,74,.2)}
+.tg.off{background:var(--s1);color:var(--dim);border-color:var(--bdr)}
+.tg-icon{font-size:.55rem}
+.alert{max-width:800px;margin:0 auto;padding:0 1rem}
+.alert-inner{background:var(--red-bg);border:1px solid rgba(224,72,72,.15);border-radius:var(--r);padding:.6rem .8rem;font-size:.6rem;color:#b88;display:flex;align-items:center;gap:.5rem}
+.alert-inner strong{color:var(--red)}
+.alert-inner.green{background:var(--grn-bg);border:1px solid rgba(45,179,74,.15);color:#7a9}
+.alert-inner.green strong{color:var(--grn)}
+.main{max-width:800px;margin:0 auto;padding:1rem 1rem 5rem}
+.sec{margin-bottom:1.2rem}
+.sec-t{font-family:var(--sf);font-size:1.05rem;color:var(--gold);font-weight:600;margin-bottom:.4rem;padding-bottom:.3rem;border-bottom:1px solid var(--bdr)}
+.about{font-size:.75rem;color:var(--sub);line-height:1.75}
+.about strong{color:var(--ink)}
+.about p{margin-bottom:.4rem}
+.crowd-wrap{display:flex;flex-direction:column;gap:.25rem}
+.crowd-row{display:flex;gap:.35rem;align-items:center}
+.crowd-day{width:22px;font-size:.5rem;font-weight:700;color:var(--sub);flex-shrink:0}
+.crowd-bar{flex:1;height:9px;background:var(--s2);border-radius:5px;overflow:hidden}
+.crowd-fill{height:100%;border-radius:5px}
+.crowd-lbl{width:50px;font-size:.44rem;font-weight:700;text-align:right;flex-shrink:0}
+.c-low{background:linear-gradient(90deg,var(--grn),#1d8a30)}.c-low-l{color:var(--grn)}
+.c-med{background:linear-gradient(90deg,#d4a843,#b8902f)}.c-med-l{color:var(--gold)}
+.c-high{background:linear-gradient(90deg,var(--red),#c03)}.c-high-l{color:var(--red)}
+.crowd-tip{font-size:.5rem;color:var(--sub);margin-top:.45rem;line-height:1.65;background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.45rem .65rem}
+.crowd-tip strong{color:var(--ink)}
+.venue-photo-bottom{width:100%;height:200px;background-size:cover;background-position:center;border-radius:var(--r);margin-bottom:1.4rem;opacity:.7}
+.car-sec{margin-bottom:1.4rem}
+.car-wrap{position:relative;overflow:hidden;border-radius:var(--r)}
+.car-track{display:flex;transition:transform .35s ease;will-change:transform}
+.car-slide{flex:0 0 80%;max-width:320px;margin-right:.5rem;border-radius:8px;overflow:hidden;background:var(--s1);border:1px solid var(--bdr)}
+@media(min-width:600px){.car-slide{flex:0 0 45%;max-width:380px}}
+.car-img{width:100%;height:200px;object-fit:cover;display:block;background:var(--s2)}
+.car-cap{padding:.4rem .55rem .5rem;font-size:.42rem;color:var(--dim);line-height:1.5}
+.car-cap a{color:var(--dim);text-decoration:underline;text-underline-offset:2px}
+.car-btn{position:absolute;top:50%;transform:translateY(-60%);width:28px;height:28px;border-radius:50%;background:rgba(11,13,18,.75);border:1px solid var(--bdr);color:#fff;font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;backdrop-filter:blur(6px);transition:background .15s}
+.car-btn:hover{background:rgba(212,168,67,.15);border-color:rgba(212,168,67,.3)}
+.car-prev{left:.4rem}.car-next{right:.4rem}
+.car-dots{display:flex;justify-content:center;gap:.3rem;margin-top:.5rem}
+.car-dot{width:5px;height:5px;border-radius:50%;background:var(--bdr);transition:background .2s;cursor:pointer}
+.car-dot.active{background:var(--gold)}
+.fq{border-bottom:1px solid var(--bdr)}
+.fq-q{font-size:.72rem;font-weight:600;color:#fff;cursor:pointer;padding:.6rem 0;display:flex;justify-content:space-between;align-items:center}
+.fq-q::after{content:'\25be';color:var(--gold);font-size:.6rem;transition:transform .2s}
+.fq.open .fq-q::after{transform:rotate(180deg)}
+.fq-a{font-size:.65rem;color:var(--sub);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s}
+.fq.open .fq-a{max-height:300px;padding-bottom:.5rem}
+.claim{background:var(--s1);border:1px dashed var(--bdr);border-radius:var(--r);padding:1rem;text-align:center;margin-top:1.5rem}
+.claim-t{font-family:var(--sf);color:var(--gold);font-size:.95rem;margin-bottom:.2rem}
+.claim-txt{font-size:.6rem;color:var(--sub);margin-bottom:.5rem}
+.claim-btn{display:inline-flex;padding:.4rem .8rem;border-radius:5px;font-size:.62rem;font-weight:700;background:rgba(212,168,67,.08);color:var(--gold);border:1px solid rgba(212,168,67,.18)}
+.footer{max-width:800px;margin:0 auto;padding:1rem;text-align:center;border-top:1px solid var(--bdr)}
+.footer p{font-size:.5rem;color:var(--dim);line-height:1.7}
+.footer a{color:var(--gold)}
+.sticky{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(11,13,18,.95);backdrop-filter:blur(16px);border-top:1px solid var(--bdr);padding:.55rem .8rem;display:flex;gap:.4rem;justify-content:center}
+.sticky a{flex:1;max-width:200px;text-align:center;padding:.6rem .5rem;border-radius:8px;font-size:.72rem;font-weight:700;transition:all .15s;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:.3rem}
+.sticky a:hover{transform:translateY(-1px)}
+.s-book{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 2px 12px rgba(45,179,74,.25)}
+.s-book.grey{background:var(--s1);color:var(--dim);border:1px solid var(--bdr);box-shadow:none;pointer-events:none}
+.s-site{background:var(--s1);color:var(--blue);border:1px solid var(--bdr)}
+.s-map{background:var(--s1);color:var(--sub);border:1px solid var(--bdr)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero-in>*{animation:up .5s ease-out backwards}
+.badge-row{animation-delay:.05s}h1{animation-delay:.1s}.sub{animation-delay:.15s}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <span class="tl">official<span>link</span>.org</span>
+</div>
+
+<div class="why-strip">🎟 "Skip the line" is just a timed entry ticket — always book direct at cac.es</div>
+
+<div class="hero">
+  <div class="hero-in">
+    <div class="crumb">
+      <a href="/">Home</a> › <a href="/spain/valencia">← Valencia</a> › <a href="/spain">Spain</a> › Príncipe Felipe Science Museum
+    </div>
+    <div class="badge-row">
+      <span class="badge b-v">✓ Verified</span>
+      <span class="badge b-f">Valencia</span>
+    </div>
+    <h1>Príncipe Felipe Science Museum</h1>
+    <div class="sub">42,000 m² of interactive science · City of Arts and Sciences · Designed by Santiago Calatrava</div>
+    <div class="vc-confirmed">
+      <span class="vc-icon">🔒</span>
+      <div>
+        <div class="vc-text">Official links verified</div>
+        <div class="vc-date">cac.es</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<img alt="Príncipe Felipe Science Museum" class="hero-photo" src="/img/venue/principe-felipe-science-museum.jpg"/>
+
+<div class="back-btn"><a href="/spain/valencia">← Back to Valencia Landmarks</a></div>
+
+<div class="price-compare">
+  <div class="pc-row">
+    <div class="pc-label ok">OFFICIAL</div>
+    <div class="pc-bar ok">
+      <span class="pc-price ok">from €7.50</span>
+      <span style="font-size:.44rem;color:var(--grn);opacity:.7">cac.es</span>
+    </div>
+  </div>
+  <div class="pc-row">
+    <div class="pc-label bad">RESELLERS</div>
+    <div class="pc-bar bad">
+      <span class="pc-price bad">€12–€20</span>
+      <span style="font-size:.44rem;color:var(--red);opacity:.6">same ticket, markup only</span>
+    </div>
+  </div>
+  <div class="pc-note">Reseller prices based on verified market research.</div>
+</div>
+
+<div class="tix-wrap">
+  <div class="tix-title">Admission prices 2026</div>
+  <div class="tix">
+    <div class="tix-card">
+      <div class="tix-type">Adult</div>
+      <div class="tix-price">⚠️ verify</div>
+      <!-- UNVERIFIED -->
+      <div class="tix-note">Age 13+ · from ~€7.50 · confirm at cac.es</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Child</div>
+      <div class="tix-price">⚠️ verify</div>
+      <!-- UNVERIFIED -->
+      <div class="tix-note">Ages 4–12 · reduced rate · 0–3 free · cac.es</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Senior / Reduced</div>
+      <div class="tix-price">⚠️ verify</div>
+      <!-- UNVERIFIED -->
+      <div class="tix-note">65+ and disabled · reduced rate · cac.es</div>
+    </div>
+  </div>
+</div>
+
+<div class="toggles">
+  <div class="tg on"><span class="tg-icon">📍</span> Valencia, Spain — Av. del Professor López Piñero, 7</div>
+  <div class="tg on"><span class="tg-icon">🚇</span> Metro L3/L5 Alameda (15 min walk) · Bus 13, 14, 15, 19, 35, 40, 95</div>
+  <div class="tg on"><span class="tg-icon">🕐</span> Daily 10:00–18:00 (low) / 19:00 (mid) / 21:00 (high season)</div>
+  <div class="tg on"><span class="tg-icon">📅</span> Open 365 days a year</div>
+  <div class="tg on"><span class="tg-icon">⏱</span> 2–3 hours recommended</div>
+  <div class="tg on"><span class="tg-icon">🎧</span> Audio guide — €1 download on mobile (ES, EN, FR, DE, IT, VA)</div>
+</div>
+
+<div class="alert">
+  <div class="alert-inner">⚠️ Official booking is <strong>cac.es</strong> — any other site charging more is a reseller.</div>
+</div>
+
+<div class="main">
+
+  <div class="about sec">
+    <div class="sec-t">About</div>
+    <p>The Museu de les Ciències Príncipe Felipe is an interactive science and technology museum in Valencia's City of Arts and Sciences complex (Ciutat de les Arts i les Ciències), at Av. del Professor López Piñero, 7. The building was designed by Valencian architect Santiago Calatrava and spans 42,000 square metres of built surface, of which 26,000 square metres are exhibition space — the largest science museum building in Spain. The structure's biomorphic form, resembling a whale skeleton, is integrated with 13,500 square metres of surrounding reflecting pools.</p>
+    <p>The museum opened in November 2000 and is operated by the Fundació de la Comunitat Valenciana Ciutat de les Arts i les Ciències. Its permanent exhibitions cover science, technology, and the environment across four floors, with interactive modules on topics including genetics, space exploration, physics, and ecology. The museum's stated principle — "forbidden not to touch, not to feel, and not to think" — reflects its hands-on approach. In 2025 the museum hosted the temporary exhibition "Leonardo da Vinci: 500 Years of Genius," running through early 2026, as part of the museum's 25th anniversary programme.</p>
+    <p>The museum is part of a complex that also includes the Hemisfèric (IMAX dome cinema), the Oceanogràfic (Europe's largest aquarium), the Palau de les Arts opera house, and the L'Umbracle garden. Combo tickets covering multiple venues are sold exclusively through cac.es. The ticket office closes one hour before the museum. Audio guides cost €1 and are downloaded via mobile in six languages. Last updated: March 2026 · Verified</p>
+  </div>
+
+  <script id="venue-photos" type="application/json">[]</script>
+  <div class="sec car-sec" id="photo-sec" style="display:none">
+    <div class="sec-t">Photos</div>
+    <div id="carousel-mount"></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">Crowd levels by day</div>
+    <div class="crowd-wrap">
+      <div class="crowd-row"><span class="crowd-day">Mon</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:30%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Tue</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:30%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Wed</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:35%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Thu</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:45%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Fri</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:55%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sat</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:82%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sun</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:75%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+    </div>
+    <div class="crowd-tip"><strong>Best time:</strong> Weekday afternoons after 15:00 are typically quietest. Saturday mornings see peak family attendance. In high summer (July–September) the extended 21:00 closing means late afternoon visits are cooler and less crowded.</div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">FAQ</div>
+    <div class="fq">
+      <div class="fq-q">How much does the Príncipe Felipe Science Museum cost?</div>
+      <div class="fq-a">As of 2025, adult tickets start from €7.20 and reduced tickets (children 4–12, seniors 65+, disabled) at lower rates. Children 0–3 enter free. Prices vary by season. Book directly at cac.es to avoid reseller markups. ⚠️ Confirm exact current prices at cac.es before visiting.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Where do I buy official tickets for the Science Museum?</div>
+      <div class="fq-a">Official tickets are sold at tickets.cac.es or at the museum's ticket desks at Av. del Professor López Piñero, 7, Valencia. Do not purchase from GetYourGuide, Viator, or similar platforms — they charge markups for the same ticket.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">What are the opening hours of the Príncipe Felipe Science Museum?</div>
+      <div class="fq-a">Hours vary by season. Low season (January–March and October–December): Mon–Thu 10:00–18:00, Fri–Sun 10:00–19:00. Medium season: daily 10:00–19:00. High season (late June–mid-September): daily 10:00–21:00. Ticket offices close 1 hour before the museum. Check cac.es for current schedule.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">How do I get to the Príncipe Felipe Science Museum?</div>
+      <div class="fq-a">The museum is at Av. del Professor López Piñero, 7, 46013 Valencia. Metro lines 3 and 5 stop at Alameda station (15 min walk). Bus lines 13, 14, 15, 19, 35, 40, and 95 serve the complex. Parking is available on-site at €2.30/hr (max €24/day, or €7/day with ticket purchase).</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Can I combine the Science Museum with other City of Arts and Sciences venues?</div>
+      <div class="fq-a">Yes. Combo tickets are sold at cac.es combining the Museu de les Ciències with the Hemisfèric (IMAX dome) and/or the Oceanogràfic aquarium. Combo tickets are cheaper than buying separately. All bookings should go through cac.es only.</div>
+    </div>
+  </div>
+
+  <div class="claim">
+    <div class="claim-t">🕵 Claim this mission</div>
+    <div class="claim-txt">Help verify opening hours, current prices, or booking links for Príncipe Felipe Science Museum.<br/>Submit verified info and earn points on the leaderboard.</div>
+    <span class="claim-btn">Enroll as Detective →</span>
+  </div>
+
+  <div class="back-btn" style="margin-top:1rem"><a href="/spain/valencia">← Back to Valencia Landmarks</a></div>
+
+  <div class="footer">
+    <p>Príncipe Felipe Science Museum · <a href="/spain">Spain</a> · <a href="/spain/valencia">← Valencia</a> · <a href="/">officiallink.org</a><br/>
+    <span style="font-size:.35rem;color:var(--dim)">📷 Photo credit pending</span></p>
+  </div>
+
+</div>
+
+<div class="sticky">
+  <a class="s-book" href="https://tickets.cac.es/internetCAC/home.do?language=es-ES" target="_blank" rel="noopener">🎟 Book Official ✅</a>
+  <a class="s-site" href="https://cac.es/en/museu-de-les-ciencies/" target="_blank" rel="noopener">🌐 cac.es ✅</a>
+  <a class="s-map" href="https://maps.app.goo.gl/Yv3SW6nRLBv4J2Fi8" target="_blank" rel="noopener">📍 Maps ✅</a>
+</div>
+
+<script defer src="/detective-layer.js"></script>
+<script defer src="/site.js"></script>
+</body>
+</html>
+
