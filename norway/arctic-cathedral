@@ -271,7 +271,7 @@ h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weig
 <div class="sticky">
   <a class="s-book grey" href="#">🎟 Book Official</a>
   <a class="s-site" href="https://www.ishavskatedralen.no" target="_blank" rel="noopener">🌐 ishavskatedralen.no ✅</a>
-  <a class="s-map" href="https://maps.app.goo.gl/GtBEjKRDsHydMuQa7" target="_blank" rel="noopener">📍 Maps ✅</a>
+  <a class="s-map" href="https://maps.app.goo.gl/NjEPrgmstjZBm5peA" target="_blank" rel="noopener">📍 Maps ✅</a>
 </div>
 
 <script defer src="/detective-layer.js"></script>
