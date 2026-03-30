@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Knivskjellodden — Official Links | officiallink.org</title>
+<meta content="Knivskjellodden — the true northernmost point of mainland Europe at 71°11′N, accessible by a 9km hiking trail from the E69. Free to visit. Official links on officiallink.org" name="description"/>
+<link href="https://officiallink.org/norway/knivskjellodden" rel="canonical"/>
+<meta content="Knivskjellodden — officiallink.org" property="og:title"/>
+<meta content="The true northernmost point of mainland Europe at 71°11′N. 9km hiking trail from the E69. Free to visit." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://officiallink.org/norway/knivskjellodden" property="og:url"/>
+<meta content="officiallink.org" property="og:site_name"/>
+<meta content="https://officiallink.org/img/venue/knivskjellodden.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://officiallink.org/img/venue/knivskjellodden.jpg" name="twitter:image"/>
+<meta content="index, follow" name="robots"/>
+<meta content="en" property="og:locale"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristAttraction","name":"Knivskjellodden","description":"The actual northernmost point of mainland Europe at latitude 71°11′08″N on the island of Magerøya. Accessible by a 9km marked hiking trail. Free to visit.","url":"https://officiallink.org/norway/knivskjellodden","address":{"@type":"PostalAddress","addressLocality":"Nordkapp","addressCountry":"Norway"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://officiallink.org/"},{"@type":"ListItem","position":2,"name":"North Cape & Northern Norway","item":"https://officiallink.org/norway/north-cape-northern-norway"},{"@type":"ListItem","position":3,"name":"Norway","item":"https://officiallink.org/norway"},{"@type":"ListItem","position":4,"name":"Knivskjellodden"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Knivskjellodden free to visit?","acceptedAnswer":{"@type":"Answer","text":"Yes. Knivskjellodden is open public land under Norway's freedom-to-roam laws. There is no entrance fee, no gate, and no ticket required. Any website selling a ticket or access pass to Knivskjellodden itself is fraudulent. The trail starts from a free car park on the E69, approximately 7 km before the Nordkapp plateau."}},{"@type":"Question","name":"How long is the hike to Knivskjellodden?","acceptedAnswer":{"@type":"Answer","text":"The marked trail is approximately 9 km one way, making a round trip of approximately 18 km. Total hiking time is typically 4–6 hours round trip depending on pace and conditions. The terrain is open tundra — flat but exposed with no shelter. Trail starts from the car park on the E69, approx. 7 km before Nordkapp plateau."}},{"@type":"Question","name":"Is Knivskjellodden further north than Nordkapp?","acceptedAnswer":{"@type":"Answer","text":"Yes. Knivskjellodden extends approximately 1,457 metres further north than the Nordkapp plateau, reaching latitude 71°11′08″N versus Nordkapp's 71°10′21″N. Nordkapp is more accessible by road and has the visitor centre (Nordkapphallen); Knivskjellodden is the actual northernmost point and requires a hike."}},{"@type":"Question","name":"When can you hike to Knivskjellodden?","acceptedAnswer":{"@type":"Answer","text":"The trail is accessible when the E69 road is open. In summer (May–October) the road is open to all traffic continuously. In winter, the E69 is subject to the convoy system operated from Honningsvåg — day-hikers can join the convoy. Arctic weather can change rapidly at any time of year; full weather-appropriate equipment is required."}},{"@type":"Question","name":"What equipment is needed for the Knivskjellodden hike?","acceptedAnswer":{"@type":"Answer","text":"The terrain is open Arctic tundra with no shelter. Required equipment: waterproof and windproof outer layers, warm layers, sturdy footwear, map or GPS, water, food, and a charged phone. Check weather forecasts at yr.no before departing. In summer, the midnight sun means 24-hour daylight — visibility is not a limiting factor, but cold wind and fog can develop rapidly."}}]}</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--grn:#2db34a;--grn-bg:rgba(45,179,74,.07);--red:#e04848;--red-bg:rgba(224,72,72,.06);--blue:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ss);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.why-strip{background:linear-gradient(135deg,#1a1208,#1f1a0d);border-bottom:1px solid rgba(212,168,67,.2);padding:.45rem .8rem;text-align:center;font-size:.48rem;color:var(--gold);font-weight:600;letter-spacing:.02em}
+.hero{position:relative;background-image:url('/img/venue/knivskjellodden.jpg');background-size:cover;background-position:center;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#100e08,#1c1a0c 45%,#28240e)}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.1) 40%,rgba(11,13,18,.55) 100%)}
+.hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:3rem 1rem 1.5rem}
+.crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.6rem}.crumb a{color:rgba(255,255,255,.4)}
+.badge-row{display:flex;gap:.3rem;margin-bottom:.5rem;flex-wrap:wrap}
+.badge{font-size:.48rem;font-weight:700;padding:.18rem .5rem;border-radius:20px;letter-spacing:.03em}
+.b-v{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+.b-f{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weight:700;line-height:1.08;margin-bottom:.2rem}
+.sub{font-size:.78rem;color:rgba(255,255,255,.45);font-weight:300}
+.vc-confirmed{background:linear-gradient(135deg,#1a2a15,#1a3318);border:1px solid rgba(52,199,89,.3);border-radius:8px;padding:.5rem .7rem;margin:.3rem 0;display:flex;align-items:center;gap:.5rem}
+.vc-icon{font-size:1rem}
+.vc-text{font-size:.48rem;color:#34c759;font-weight:700;line-height:1.4}
+.vc-date{font-size:.4rem;color:rgba(52,199,89,.5)}
+.hero-photo{width:100%;max-height:220px;object-fit:cover;border-radius:0 0 8px 8px;display:block}
+.back-btn{display:block;max-width:800px;margin:.5rem auto;padding:0 .8rem}
+.back-btn a{display:inline-flex;align-items:center;gap:.3rem;font-size:.6rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.35rem .7rem;text-decoration:none;transition:color .15s,border-color .15s}
+.back-btn a:hover{color:var(--gold);border-color:rgba(212,168,67,.3)}
+.price-compare{max-width:800px;margin:0 auto;padding:.6rem .8rem}
+.pc-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem}
+.pc-label{font-size:.45rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;width:70px;flex-shrink:0}
+.pc-label.ok{color:var(--grn)}.pc-label.bad{color:var(--red)}
+.pc-bar{flex:1;height:28px;border-radius:6px;display:flex;align-items:center;padding:0 .6rem}
+.pc-bar.ok{background:rgba(45,179,74,.12)}.pc-bar.bad{background:rgba(224,72,72,.08)}
+.pc-price{font-family:var(--sf);font-size:.85rem;font-weight:700}
+.pc-price.ok{color:var(--grn)}.pc-price.bad{color:var(--red);text-decoration:line-through;opacity:.7}
+.pc-note{text-align:center;font-size:.42rem;color:var(--dim);margin-top:.15rem}
+.tix-wrap{max-width:800px;margin:0 auto;padding:.4rem .8rem}
+.tix-title{font-size:.5rem;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.4rem}
+.tix{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.35rem}
+@media(max-width:500px){.tix{grid-template-columns:1fr 1fr}}
+.tix-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.tix-type{font-size:.48rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.15rem}
+.tix-price{font-family:var(--sf);font-size:1.1rem;color:#fff;font-weight:700}
+.tix-note{font-size:.5rem;color:var(--sub);margin-top:.1rem;line-height:1.4}
+.toggles{display:flex;flex-wrap:wrap;gap:.3rem;padding:.4rem .6rem;max-width:800px;margin:0 auto}
+.tg{display:flex;align-items:center;gap:.25rem;padding:.25rem .5rem;border-radius:6px;font-size:.45rem;font-weight:600;border:1px solid}
+.tg.on{background:rgba(45,179,74,.08);color:var(--grn);border-color:rgba(45,179,74,.2)}
+.tg.off{background:var(--s1);color:var(--dim);border-color:var(--bdr)}
+.tg-icon{font-size:.55rem}
+.alert{max-width:800px;margin:0 auto;padding:0 1rem}
+.alert-inner{background:var(--red-bg);border:1px solid rgba(224,72,72,.15);border-radius:var(--r);padding:.6rem .8rem;font-size:.6rem;color:#b88;display:flex;align-items:center;gap:.5rem}
+.alert-inner strong{color:var(--red)}
+.alert-inner.green{background:var(--grn-bg);border:1px solid rgba(45,179,74,.15);color:#7a9}
+.alert-inner.green strong{color:var(--grn)}
+.main{max-width:800px;margin:0 auto;padding:1rem 1rem 5rem}
+.sec{margin-bottom:1.2rem}
+.sec-t{font-family:var(--sf);font-size:1.05rem;color:var(--gold);font-weight:600;margin-bottom:.4rem;padding-bottom:.3rem;border-bottom:1px solid var(--bdr)}
+.about{font-size:.75rem;color:var(--sub);line-height:1.75}
+.about strong{color:var(--ink)}
+.about p{margin-bottom:.4rem}
+.crowd-wrap{display:flex;flex-direction:column;gap:.25rem}
+.crowd-row{display:flex;gap:.35rem;align-items:center}
+.crowd-day{width:22px;font-size:.5rem;font-weight:700;color:var(--sub);flex-shrink:0}
+.crowd-bar{flex:1;height:9px;background:var(--s2);border-radius:5px;overflow:hidden}
+.crowd-fill{height:100%;border-radius:5px}
+.crowd-lbl{width:50px;font-size:.44rem;font-weight:700;text-align:right;flex-shrink:0}
+.c-low{background:linear-gradient(90deg,var(--grn),#1d8a30)}.c-low-l{color:var(--grn)}
+.c-med{background:linear-gradient(90deg,#d4a843,#b8902f)}.c-med-l{color:var(--gold)}
+.c-high{background:linear-gradient(90deg,var(--red),#c03)}.c-high-l{color:var(--red)}
+.crowd-tip{font-size:.5rem;color:var(--sub);margin-top:.45rem;line-height:1.65;background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.45rem .65rem}
+.crowd-tip strong{color:var(--ink)}
+.car-sec{margin-bottom:1.4rem}
+.car-wrap{position:relative;overflow:hidden;border-radius:var(--r)}
+.car-track{display:flex;transition:transform .35s ease;will-change:transform}
+.car-slide{flex:0 0 80%;max-width:320px;margin-right:.5rem;border-radius:8px;overflow:hidden;background:var(--s1);border:1px solid var(--bdr)}
+@media(min-width:600px){.car-slide{flex:0 0 45%;max-width:380px}}
+.car-img{width:100%;height:200px;object-fit:cover;display:block;background:var(--s2)}
+.car-cap{padding:.4rem .55rem .5rem;font-size:.42rem;color:var(--dim);line-height:1.5}
+.car-cap a{color:var(--dim);text-decoration:underline;text-underline-offset:2px}
+.car-btn{position:absolute;top:50%;transform:translateY(-60%);width:28px;height:28px;border-radius:50%;background:rgba(11,13,18,.75);border:1px solid var(--bdr);color:#fff;font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;backdrop-filter:blur(6px);transition:background .15s}
+.car-btn:hover{background:rgba(212,168,67,.15);border-color:rgba(212,168,67,.3)}
+.car-prev{left:.4rem}.car-next{right:.4rem}
+.car-dots{display:flex;justify-content:center;gap:.3rem;margin-top:.5rem}
+.car-dot{width:5px;height:5px;border-radius:50%;background:var(--bdr);transition:background .2s;cursor:pointer}
+.car-dot.active{background:var(--gold)}
+.fq{border-bottom:1px solid var(--bdr)}
+.fq-q{font-size:.72rem;font-weight:600;color:#fff;cursor:pointer;padding:.6rem 0;display:flex;justify-content:space-between;align-items:center}
+.fq-q::after{content:'\25be';color:var(--gold);font-size:.6rem;transition:transform .2s}
+.fq.open .fq-q::after{transform:rotate(180deg)}
+.fq-a{font-size:.65rem;color:var(--sub);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s}
+.fq.open .fq-a{max-height:300px;padding-bottom:.5rem}
+.claim{background:var(--s1);border:1px dashed var(--bdr);border-radius:var(--r);padding:1rem;text-align:center;margin-top:1.5rem}
+.claim-t{font-family:var(--sf);color:var(--gold);font-size:.95rem;margin-bottom:.2rem}
+.claim-txt{font-size:.6rem;color:var(--sub);margin-bottom:.5rem}
+.claim-btn{display:inline-flex;padding:.4rem .8rem;border-radius:5px;font-size:.62rem;font-weight:700;background:rgba(212,168,67,.08);color:var(--gold);border:1px solid rgba(212,168,67,.18)}
+.footer{max-width:800px;margin:0 auto;padding:1rem;text-align:center;border-top:1px solid var(--bdr)}
+.footer p{font-size:.5rem;color:var(--dim);line-height:1.7}
+.footer a{color:var(--gold)}
+.sticky{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(11,13,18,.95);backdrop-filter:blur(16px);border-top:1px solid var(--bdr);padding:.55rem .8rem;display:flex;gap:.4rem;justify-content:center}
+.sticky a{flex:1;max-width:200px;text-align:center;padding:.6rem .5rem;border-radius:8px;font-size:.72rem;font-weight:700;transition:all .15s;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:.3rem}
+.sticky a:hover{transform:translateY(-1px)}
+.s-book{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 2px 12px rgba(45,179,74,.25)}
+.s-book.grey{background:var(--s1);color:var(--dim);border:1px solid var(--bdr);box-shadow:none;pointer-events:none}
+.s-site{background:var(--s1);color:var(--blue);border:1px solid var(--bdr)}
+.s-map{background:var(--s1);color:var(--sub);border:1px solid var(--bdr)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero-in>*{animation:up .5s ease-out backwards}
+.badge-row{animation-delay:.05s}h1{animation-delay:.1s}.sub{animation-delay:.15s}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <span class="tl">official<span>link</span>.org</span>
+</div>
+
+<div class="why-strip">🆓 Free public space — ut.no is the official hiking source</div>
+
+<div class="hero">
+  <div class="hero-in">
+    <div class="crumb">
+      <a href="/">Home</a> › <a href="/norway/north-cape-northern-norway">← North Cape &amp; Northern Norway</a> › <a href="/norway">Norway</a> › Knivskjellodden
+    </div>
+    <div class="badge-row">
+      <span class="badge b-v">✓ Verified</span>
+      <span class="badge b-f">Nordkapp</span>
+    </div>
+    <h1>Knivskjellodden</h1>
+    <div class="sub">True northernmost point of mainland Europe at 71°11′N · 9km trail from E69 · free, no ticket</div>
+    <div class="vc-confirmed">
+      <span class="vc-icon">🔒</span>
+      <div>
+        <div class="vc-text">Official links verified</div>
+        <div class="vc-date">ut.no · yr.no</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<img alt="Knivskjellodden" class="hero-photo" src="/img/venue/knivskjellodden.jpg"/>
+
+<div class="back-btn"><a href="/norway/north-cape-northern-norway">← Back to North Cape &amp; Northern Norway</a></div>
+
+<div class="price-compare">
+  <div class="pc-row">
+    <div class="pc-label ok">OFFICIAL</div>
+    <div class="pc-bar ok">
+      <span class="pc-price ok">Free</span>
+      <span style="font-size:.44rem;color:var(--grn);opacity:.7">public land · no ticket</span>
+    </div>
+  </div>
+  <div class="pc-row">
+    <div class="pc-label bad">RESELLERS</div>
+    <div class="pc-bar bad">
+      <span class="pc-price bad">€50–€150+</span>
+      <span style="font-size:.44rem;color:var(--red);opacity:.6">guided tours wrapping free public land</span>
+    </div>
+  </div>
+  <div class="pc-note">Any site selling an entrance ticket to Knivskjellodden is fraudulent. The land is free and publicly accessible.</div>
+</div>
+
+<div class="tix-wrap">
+  <div class="tix-title">Admission 2026</div>
+  <div class="tix">
+    <div class="tix-card">
+      <div class="tix-type">Trail Access</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">9km marked trail · no permit needed</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Car Park (E69)</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">Trailhead approx. 7km before Nordkapp</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Trail distance</div>
+      <div class="tix-price" style="color:var(--sub);font-size:.85rem">18km</div>
+      <div class="tix-note">Round trip · 4–6 hours · open tundra</div>
+    </div>
+  </div>
+</div>
+
+<div class="toggles">
+  <div class="tg on"><span class="tg-icon">📍</span> Magerøya, Nordkapp, Norway</div>
+  <div class="tg on"><span class="tg-icon">🚗</span> E69 from Honningsvåg · trailhead 7km before plateau</div>
+  <div class="tg on"><span class="tg-icon">🕐</span> Open 24/7 when road is accessible</div>
+  <div class="tg on"><span class="tg-icon">📅</span> Summer: unrestricted · Winter: E69 convoy only</div>
+  <div class="tg on"><span class="tg-icon">⏱</span> 4–6 hours round trip</div>
+</div>
+
+<div class="alert">
+  <div class="alert-inner green">✅ Free to visit — no ticket needed. <strong>ut.no</strong> has the official trail information. Any site selling "tickets" to Knivskjellodden is fraudulent.</div>
+</div>
+
+<div class="main">
+
+  <div class="about sec">
+    <div class="sec-t">About</div>
+    <p><strong>Knivskjellodden</strong> is a peninsula on the island of Magerøya extending to latitude <strong>71°11′08″N</strong> — approximately 1,457 metres further north than the Nordkapp plateau (71°10′21″N), making it the actual northernmost point of mainland Europe. The Nordkapp plateau is more accessible by road and more widely marketed, but Knivskjellodden is the geographic record-holder. The land is publicly accessible under Norway's freedom-to-roam laws. There is no fee, no permit, and no ticket required.</p>
+    <p>The marked trail begins at a car park on the <strong>E69 highway, approximately 7 km before the Nordkapp plateau</strong>. The trail is approximately 9 km one way (18 km round trip) across open Arctic tundra — flat but exposed, with no shelter at any point. Typical round-trip time is 4–6 hours. The terrain is not technically difficult but weather conditions can change rapidly; full waterproof and windproof clothing, warm layers, sturdy footwear, food, water, and navigation equipment are required regardless of the season.</p>
+    <p>The E69 is open to all traffic continuously in summer. In winter, access to Magerøya via the E69 is by scheduled convoy departing from Honningsvåg — hikers travelling independently must time their journey to arrive with the convoy. Check road status at vegvesen.no and weather at yr.no before departing. Trail information is available at ut.no. Last updated: March 2026 · Verified</p>
+  </div>
+
+  <script id="venue-photos" type="application/json">[]</script>
+  <div class="sec car-sec" id="photo-sec" style="display:none">
+    <div class="sec-t">Photos</div>
+    <div id="carousel-mount"></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">Crowd levels by day</div>
+    <div class="crowd-wrap">
+      <div class="crowd-row"><span class="crowd-day">Mon</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:15%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Tue</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:15%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Wed</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:15%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Thu</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:20%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Fri</span><div class="crowd-bar"><div class="crowd-fill c-low" style="width:25%"></div></div><span class="crowd-lbl c-low-l">Quiet</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sat</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:45%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Sun</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:40%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+    </div>
+    <div class="crowd-tip"><strong>Best time:</strong> Weekday departures in June or July allow the trail to be completed in the midnight sun with minimal other hikers. Even at peak season this trail is far quieter than the Nordkapp plateau — most visitors do not attempt it. Start early or in the evening to avoid the midday cruise-ship peak at the nearby Nordkapp car park.</div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">FAQ</div>
+    <div class="fq">
+      <div class="fq-q">Is Knivskjellodden free to visit?</div>
+      <div class="fq-a">Yes. Knivskjellodden is open public land under Norway's freedom-to-roam laws. There is no entrance fee, no gate, and no ticket required. The trail starts from a free car park on the E69, approximately 7 km before the Nordkapp plateau. Any website selling a "ticket" to Knivskjellodden is fraudulent.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">How long is the hike to Knivskjellodden?</div>
+      <div class="fq-a">The marked trail is approximately 9 km one way — 18 km round trip. Total hiking time is typically 4–6 hours round trip. The terrain is open Arctic tundra, flat but fully exposed with no shelter. The trail starts from the car park on the E69, approximately 7 km before the Nordkapp plateau.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Is Knivskjellodden further north than Nordkapp?</div>
+      <div class="fq-a">Yes. Knivskjellodden extends approximately 1,457 metres further north than the Nordkapp plateau, reaching latitude 71°11′08″N versus Nordkapp's 71°10′21″N. Nordkapp is accessible by road with the Nordkapphallen visitor centre; Knivskjellodden is the actual northernmost point and requires the 18km round-trip hike.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">When can you hike to Knivskjellodden?</div>
+      <div class="fq-a">The trail is accessible when the E69 is open. In summer (May–October) the road is open to all traffic continuously. In winter, the E69 operates under a convoy system from Honningsvåg — independent hikers must join the convoy. Arctic weather can change rapidly at any time of year. Check road status at vegvesen.no and weather at yr.no before departing.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">What equipment is needed for the Knivskjellodden hike?</div>
+      <div class="fq-a">Required equipment: waterproof and windproof outer layers, warm insulating layers, sturdy footwear, map or GPS, water, food, and a charged phone. The terrain is open tundra with no shelter at any point. Check yr.no for weather before departing. In summer, 24-hour daylight means visibility is not a limiting factor, but cold wind and fog can develop rapidly.</div>
+    </div>
+  </div>
+
+  <div class="claim">
+    <div class="claim-t">🕵 Claim this mission</div>
+    <div class="claim-txt">Help verify trail conditions, current access, or official links for Knivskjellodden.<br/>Submit verified info and earn points on the leaderboard.</div>
+    <span class="claim-btn">Enroll as Detective →</span>
+  </div>
+
+  <div class="back-btn" style="margin-top:1rem"><a href="/norway/north-cape-northern-norway">← Back to North Cape &amp; Northern Norway</a></div>
+
+  <div class="footer">
+    <p>Knivskjellodden · <a href="/norway">Norway</a> · <a href="/norway/north-cape-northern-norway">← North Cape</a> · <a href="/">officiallink.org</a><br/>
+    <span style="font-size:.35rem;color:var(--dim)">📷 Wikimedia Commons · CC BY-SA 4.0</span></p>
+  </div>
+
+</div>
+
+<div class="sticky">
+  <a class="s-book grey" href="#">🆓 Free Entry</a>
+  <a class="s-site" href="https://ut.no/" target="_blank" rel="noopener">🌐 ut.no ✅</a>
+  <a class="s-map" href="https://www.google.com/maps/place/Knivskjellodden/@71.185,25.68,13z" target="_blank" rel="noopener">📍 Maps ✅</a>
+</div>
+
+<script defer src="/detective-layer.js"></script>
+<script defer src="/site.js"></script>
+</body>
+</html>
+
