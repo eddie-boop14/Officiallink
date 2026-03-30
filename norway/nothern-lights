@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Northern Lights Tromsø (Aurora Borealis) — Official Links | officiallink.org</title>
+<meta content="Northern Lights Tromsø — Free aurora borealis visible September to March. Tromsø sits directly beneath the auroral oval. No ticket needed. Official links on officiallink.org" name="description"/>
+<link href="https://officiallink.org/norway/northern-lights" rel="canonical"/>
+<meta content="Northern Lights Tromsø (Aurora Borealis) — officiallink.org" property="og:title"/>
+<meta content="Free aurora borealis visible September to March. Tromsø sits directly beneath the auroral oval. No ticket needed." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://officiallink.org/norway/northern-lights" property="og:url"/>
+<meta content="officiallink.org" property="og:site_name"/>
+<meta content="https://officiallink.org/img/venue/northern-lights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://officiallink.org/img/venue/northern-lights.jpg" name="twitter:image"/>
+<meta content="index, follow" name="robots"/>
+<meta content="en" property="og:locale"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristAttraction","name":"Northern Lights Tromsø (Aurora Borealis)","description":"Free natural light display visible in Tromsø from September to March. Tromsø sits within the auroral oval at 69.6°N, making it one of the world's most consistently active aurora locations.","url":"https://officiallink.org/norway/northern-lights","address":{"@type":"PostalAddress","addressLocality":"Tromsø","addressCountry":"Norway"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://officiallink.org/"},{"@type":"ListItem","position":2,"name":"Tromsø Attractions","item":"https://officiallink.org/norway/tromso"},{"@type":"ListItem","position":3,"name":"Norway","item":"https://officiallink.org/norway"},{"@type":"ListItem","position":4,"name":"Northern Lights (Aurora Borealis)"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"When is the best time to see the Northern Lights in Tromsø?","acceptedAnswer":{"@type":"Answer","text":"The Northern Lights season in Tromsø runs from September to March, when nights are dark enough for aurora to be visible. Peak activity statistically occurs around the autumn and spring equinoxes (late September and late March). The darkest months — November through January — offer the longest viewing windows each night."}},{"@type":"Question","name":"Is it free to see the Northern Lights in Tromsø?","acceptedAnswer":{"@type":"Answer","text":"Yes. The aurora borealis is a free natural phenomenon. Any website selling a 'Northern Lights ticket' or 'aurora experience' is selling a tour, transport, or guided trip — not access to the lights themselves, which are always free to see from any outdoor location."}},{"@type":"Question","name":"Where is the best place to see Northern Lights in Tromsø?","acceptedAnswer":{"@type":"Answer","text":"The key requirement is darkness and a clear sky. Move away from city centre light pollution — the shores of Tromsøya outside the centre, Tromsdalen valley, and elevated viewpoints like Fjellheisen summit work well. Organised Northern Lights chases drive to dark rural locations outside the city."}},{"@type":"Question","name":"How do I know if Northern Lights will be visible tonight?","acceptedAnswer":{"@type":"Answer","text":"Check the Norwegian Meteorological Institute forecast at yr.no for cloud cover in the Tromsø area. For solar activity, the Norwegian Centre for Space Weather (NOSWE) publishes KP index forecasts at spaceweather.no. A KP index of 3 or higher combined with a clear sky typically produces visible aurora from Tromsø."}},{"@type":"Question","name":"Do I need a tour to see the Northern Lights?","acceptedAnswer":{"@type":"Answer","text":"No. The Northern Lights are visible from within Tromsø city on clear nights with sufficient solar activity. Organised tours (typically 1,000–2,500 NOK) add transport to low-light-pollution locations and a guide, but are not required to see the phenomenon. Renting a car and driving out of the city is a lower-cost self-guided option."}}]}</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--grn:#2db34a;--grn-bg:rgba(45,179,74,.07);--red:#e04848;--red-bg:rgba(224,72,72,.06);--blue:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--ss);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.why-strip{background:linear-gradient(135deg,#0d1a0d,#121f10);border-bottom:1px solid rgba(45,179,74,.2);padding:.45rem .8rem;text-align:center;font-size:.48rem;color:var(--grn);font-weight:600;letter-spacing:.02em}
+.hero{position:relative;min-height:280px;overflow:hidden;background:linear-gradient(160deg,#060a14,#080f1e 45%,#0c1530)}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.05) 40%,rgba(11,13,18,.4) 100%)}
+.hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:3rem 1rem 1.5rem}
+.crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.6rem}.crumb a{color:rgba(255,255,255,.4)}
+.badge-row{display:flex;gap:.3rem;margin-bottom:.5rem;flex-wrap:wrap}
+.badge{font-size:.48rem;font-weight:700;padding:.18rem .5rem;border-radius:20px;letter-spacing:.03em}
+.b-v{background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)}
+h1{font-family:var(--sf);font-size:clamp(1.7rem,5vw,2.6rem);color:#fff;font-weight:700;line-height:1.08;margin-bottom:.2rem}
+.sub{font-size:.78rem;color:rgba(255,255,255,.45);font-weight:300}
+.vc-confirmed{background:linear-gradient(135deg,#1a2a15,#1a3318);border:1px solid rgba(52,199,89,.3);border-radius:8px;padding:.5rem .7rem;margin:.3rem 0;display:flex;align-items:center;gap:.5rem}
+.vc-icon{font-size:1rem}
+.vc-text{font-size:.48rem;color:#34c759;font-weight:700;line-height:1.4}
+.vc-date{font-size:.4rem;color:rgba(52,199,89,.5)}
+.hero-photo{width:100%;max-height:220px;object-fit:cover;border-radius:0 0 8px 8px;display:block}
+.free-banner{max-width:800px;margin:0 auto;padding:.6rem .8rem}
+.fb-inner{background:var(--grn-bg);border:1px solid rgba(45,179,74,.2);border-radius:8px;padding:.7rem 1rem;display:flex;align-items:center;gap:.6rem}
+.fb-icon{font-size:1.4rem}
+.fb-text{font-size:.6rem;color:var(--grn);font-weight:700;line-height:1.5}
+.fb-sub{font-size:.5rem;color:rgba(45,179,74,.6);font-weight:400}
+.tix-wrap{max-width:800px;margin:0 auto;padding:.4rem .8rem}
+.tix-title{font-size:.5rem;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.4rem}
+.tix{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.35rem}
+@media(max-width:500px){.tix{grid-template-columns:1fr 1fr}}
+.tix-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.tix-type{font-size:.48rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.15rem}
+.tix-price{font-family:var(--sf);font-size:1.1rem;color:#fff;font-weight:700}
+.tix-note{font-size:.5rem;color:var(--sub);margin-top:.1rem;line-height:1.4}
+.toggles{display:flex;flex-wrap:wrap;gap:.3rem;padding:.4rem .6rem;max-width:800px;margin:0 auto}
+.tg{display:flex;align-items:center;gap:.25rem;padding:.25rem .5rem;border-radius:6px;font-size:.45rem;font-weight:600;border:1px solid}
+.tg.on{background:rgba(45,179,74,.08);color:var(--grn);border-color:rgba(45,179,74,.2)}
+.tg.off{background:var(--s1);color:var(--dim);border-color:var(--bdr)}
+.tg-icon{font-size:.55rem}
+.alert{max-width:800px;margin:0 auto;padding:0 1rem}
+.alert-inner.green{background:var(--grn-bg);border:1px solid rgba(45,179,74,.15);border-radius:var(--r);padding:.6rem .8rem;font-size:.6rem;color:#7a9;display:flex;align-items:center;gap:.5rem}
+.alert-inner.green strong{color:var(--grn)}
+.main{max-width:800px;margin:0 auto;padding:1rem 1rem 5rem}
+.sec{margin-bottom:1.2rem}
+.sec-t{font-family:var(--sf);font-size:1.05rem;color:var(--gold);font-weight:600;margin-bottom:.4rem;padding-bottom:.3rem;border-bottom:1px solid var(--bdr)}
+.about{font-size:.75rem;color:var(--sub);line-height:1.75}
+.about strong{color:var(--ink)}
+.about p{margin-bottom:.4rem}
+.conditions{display:grid;grid-template-columns:1fr 1fr;gap:.35rem;margin-top:.5rem}
+@media(max-width:500px){.conditions{grid-template-columns:1fr}}
+.cond-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:.55rem .65rem}
+.cond-name{font-size:.52rem;font-weight:800;color:var(--gold);margin-bottom:.15rem}
+.cond-desc{font-size:.5rem;color:var(--sub);line-height:1.5}
+.crowd-wrap{display:flex;flex-direction:column;gap:.25rem}
+.crowd-row{display:flex;gap:.35rem;align-items:center}
+.crowd-day{width:22px;font-size:.5rem;font-weight:700;color:var(--sub);flex-shrink:0}
+.crowd-bar{flex:1;height:9px;background:var(--s2);border-radius:5px;overflow:hidden}
+.crowd-fill{height:100%;border-radius:5px}
+.crowd-lbl{width:50px;font-size:.44rem;font-weight:700;text-align:right;flex-shrink:0}
+.c-low{background:linear-gradient(90deg,var(--grn),#1d8a30)}.c-low-l{color:var(--grn)}
+.c-med{background:linear-gradient(90deg,#d4a843,#b8902f)}.c-med-l{color:var(--gold)}
+.c-high{background:linear-gradient(90deg,var(--red),#c03)}.c-high-l{color:var(--red)}
+.crowd-tip{font-size:.5rem;color:var(--sub);margin-top:.45rem;line-height:1.65;background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.45rem .65rem}
+.crowd-tip strong{color:var(--ink)}
+.venue-photo-bottom{width:100%;height:200px;background-image:url('/img/venue/northern-lights.jpg');background-size:cover;background-position:center;border-radius:var(--r);margin-bottom:1.4rem;opacity:.7}
+.fq{border-bottom:1px solid var(--bdr)}
+.fq-q{font-size:.72rem;font-weight:600;color:#fff;cursor:pointer;padding:.6rem 0;display:flex;justify-content:space-between;align-items:center}
+.fq-q::after{content:'\25be';color:var(--gold);font-size:.6rem;transition:transform .2s}
+.fq.open .fq-q::after{transform:rotate(180deg)}
+.fq-a{font-size:.65rem;color:var(--sub);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s}
+.fq.open .fq-a{max-height:300px;padding-bottom:.5rem}
+.claim{background:var(--s1);border:1px dashed var(--bdr);border-radius:var(--r);padding:1rem;text-align:center;margin-top:1.5rem}
+.claim-t{font-family:var(--sf);color:var(--gold);font-size:.95rem;margin-bottom:.2rem}
+.claim-txt{font-size:.6rem;color:var(--sub);margin-bottom:.5rem}
+.claim-btn{display:inline-flex;padding:.4rem .8rem;border-radius:5px;font-size:.62rem;font-weight:700;background:rgba(212,168,67,.08);color:var(--gold);border:1px solid rgba(212,168,67,.18)}
+.footer{max-width:800px;margin:0 auto;padding:1rem;text-align:center;border-top:1px solid var(--bdr)}
+.footer p{font-size:.5rem;color:var(--dim);line-height:1.7}
+.footer a{color:var(--gold)}
+.sticky{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(11,13,18,.95);backdrop-filter:blur(16px);border-top:1px solid var(--bdr);padding:.55rem .8rem;display:flex;gap:.4rem;justify-content:center}
+.sticky a{flex:1;max-width:200px;text-align:center;padding:.6rem .5rem;border-radius:8px;font-size:.72rem;font-weight:700;transition:all .15s;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:.3rem}
+.sticky a:hover{transform:translateY(-1px)}
+.s-free{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 2px 12px rgba(45,179,74,.25)}
+.s-site{background:var(--s1);color:var(--blue);border:1px solid var(--bdr)}
+.s-map{background:var(--s1);color:var(--sub);border:1px solid var(--bdr)}
+.car-sec{margin-bottom:1.4rem}
+.car-wrap{position:relative;overflow:hidden;border-radius:var(--r)}
+.car-track{display:flex;transition:transform .35s ease;will-change:transform}
+.car-slide{flex:0 0 80%;max-width:320px;margin-right:.5rem;border-radius:8px;overflow:hidden;background:var(--s1);border:1px solid var(--bdr)}
+@media(min-width:600px){.car-slide{flex:0 0 45%;max-width:380px}}
+.car-img{width:100%;height:200px;object-fit:cover;display:block;background:var(--s2)}
+.car-cap{padding:.4rem .55rem .5rem;font-size:.42rem;color:var(--dim);line-height:1.5}
+.car-cap a{color:var(--dim);text-decoration:underline;text-underline-offset:2px}
+.car-btn{position:absolute;top:50%;transform:translateY(-60%);width:28px;height:28px;border-radius:50%;background:rgba(11,13,18,.75);border:1px solid var(--bdr);color:#fff;font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;backdrop-filter:blur(6px);transition:background .15s}
+.car-btn:hover{background:rgba(212,168,67,.15);border-color:rgba(212,168,67,.3)}
+.car-prev{left:.4rem}.car-next{right:.4rem}
+.car-dots{display:flex;justify-content:center;gap:.3rem;margin-top:.5rem}
+.car-dot{width:5px;height:5px;border-radius:50%;background:var(--bdr);transition:background .2s;cursor:pointer}
+.car-dot.active{background:var(--gold)}
+.back-btn{display:block;max-width:800px;margin:.5rem auto;padding:0 .8rem}
+.back-btn a{display:inline-flex;align-items:center;gap:.3rem;font-size:.6rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.35rem .7rem;text-decoration:none;transition:color .15s,border-color .15s}
+.back-btn a:hover{color:var(--gold);border-color:rgba(212,168,67,.3)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero-in>*{animation:up .5s ease-out backwards}
+.badge-row{animation-delay:.05s}h1{animation-delay:.1s}.sub{animation-delay:.15s}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <span class="tl">official<span>link</span>.org</span>
+</div>
+
+<div class="why-strip">🆓 Free natural phenomenon — any site selling "Northern Lights tickets" is selling a tour, not the aurora</div>
+
+<div class="hero">
+  <div class="hero-in">
+    <div class="crumb">
+      <a href="/">Home</a> › <a href="/norway/tromso">← Tromsø</a> › <a href="/norway">Norway</a> › Northern Lights Tromsø
+    </div>
+    <div class="badge-row">
+      <span class="badge b-v">✓ Verified</span>
+      <span class="badge b-f">Tromsø</span>
+      <span class="badge" style="background:var(--grn-bg);color:var(--grn);border:1px solid rgba(45,179,74,.18)">🆓 Free</span>
+    </div>
+    <h1>Northern Lights (Aurora Borealis)</h1>
+    <div class="sub">Tromsø sits directly beneath the auroral oval — visible September to March on clear nights with sufficient solar activity</div>
+    <div class="vc-confirmed">
+      <span class="vc-icon">🔒</span>
+      <div>
+        <div class="vc-text">Free natural phenomenon — no ticket exists</div>
+        <div class="vc-date">visittromso.no · spaceweather.no · yr.no</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<img alt="Northern Lights Tromsø" class="hero-photo" src="/img/venue/northern-lights.jpg"/>
+
+<div class="free-banner">
+  <div class="fb-inner">
+    <span class="fb-icon">🌌</span>
+    <div>
+      <div class="fb-text">Free to see — no ticket required</div>
+      <div class="fb-sub">Any site selling a "Northern Lights ticket" is selling a tour or transport — the aurora itself is always free</div>
+    </div>
+  </div>
+</div>
+
+<div class="tix-wrap">
+  <div class="tix-title">What actually costs money</div>
+  <div class="tix">
+    <div class="tix-card">
+      <div class="tix-type">Aurora Borealis</div>
+      <div class="tix-price" style="color:var(--grn)">Free</div>
+      <div class="tix-note">Visible from any outdoor location — no charge</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Guided Tours</div>
+      <div class="tix-price">⚠️ verify</div><!-- UNVERIFIED -->
+      <div class="tix-note">~1,000–2,500 NOK · Transport + guide to dark locations</div>
+    </div>
+    <div class="tix-card">
+      <div class="tix-type">Fjellheisen Cable Car</div>
+      <div class="tix-price">⚠️ verify</div><!-- UNVERIFIED -->
+      <div class="tix-note">Separate paid ticket — fjellheisen.no</div>
+    </div>
+  </div>
+</div>
+
+<div class="toggles">
+  <div class="tg on"><span class="tg-icon">📍</span> Tromsø, Norway — 69.6°N</div>
+  <div class="tg on"><span class="tg-icon">📅</span> Season: September to March</div>
+  <div class="tg on"><span class="tg-icon">🕐</span> Visible on clear nights — peak hours 21:00–02:00</div>
+  <div class="tg on"><span class="tg-icon">🌤</span> Clear sky + KP index 3+ required</div>
+  <div class="tg on"><span class="tg-icon">⏱</span> Duration unpredictable — minutes to hours</div>
+</div>
+
+<div class="alert">
+  <div class="alert-inner green">✅ Free to see — no ticket needed. <strong>visittromso.no</strong> and <strong>yr.no</strong> are the official sources for conditions and forecasts.</div>
+</div>
+
+<div class="main">
+
+  <div class="about sec">
+    <div class="sec-t">About</div>
+    <p>Tromsø is located at 69.6°N, directly beneath the auroral oval — a ring-shaped region centred on the Earth's magnetic pole where charged solar particles most frequently collide with atmospheric gases to produce the aurora borealis. This positioning means Tromsø has statistically higher aurora frequency than most other populated locations on Earth. <strong>The Northern Lights season in Tromsø runs from September to March</strong>, when nights are dark enough for the display to be visible. During the midnight sun period (May to July), the sky never darkens sufficiently for aurora observation regardless of solar activity.</p>
+    <p>The aurora is produced when charged particles from the sun, carried on the solar wind, interact with oxygen and nitrogen molecules in the upper atmosphere at altitudes of 100–300 kilometres. <strong>Green aurora (the most common) is produced by oxygen at around 100 km altitude</strong>; red aurora occurs at higher altitudes; blue and purple tones result from nitrogen interactions. Activity is measured by the KP index, a scale from 0 to 9. From Tromsø, aurora is typically visible at KP 3 or above. The equinoxes — late September and late March — historically show higher solar activity due to the Russell-McPherron effect, making them statistically the most active aurora periods.</p>
+    <p>The aurora is visible from within Tromsø city on clear nights with sufficient activity, though <strong>light pollution from the city centre reduces visibility of fainter displays</strong>. Moving to darker locations on the outskirts of the island or driving 20–30 km out of the city improves the viewing experience significantly. The Norwegian Meteorological Institute (yr.no) provides cloud cover forecasts; the Norwegian Centre for Space Weather (spaceweather.no) provides KP forecasts. Organised aurora chase tours available from Tromsø operators typically cost 1,000–2,500 NOK per person and provide transport to low-light-pollution locations with a guide.</p>
+  </div>
+
+  <!-- PHOTOS -->
+  <script id="venue-photos" type="application/json">[]</script>
+  <div class="sec car-sec" id="photo-sec" style="display:none">
+    <div class="sec-t">Photos</div>
+    <div id="carousel-mount"></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">What you need to see the aurora</div>
+    <div class="conditions">
+      <div class="cond-card">
+        <div class="cond-name">Dark sky</div>
+        <div class="cond-desc">The aurora season (Sep–Mar) provides dark nights. Move away from city centre light pollution for fainter displays.</div>
+      </div>
+      <div class="cond-card">
+        <div class="cond-name">Clear sky</div>
+        <div class="cond-desc">Cloud cover blocks the aurora completely. Check yr.no for the Tromsø area cloud forecast before going out.</div>
+      </div>
+      <div class="cond-card">
+        <div class="cond-name">Solar activity KP 3+</div>
+        <div class="cond-desc">Check spaceweather.no for the KP forecast. KP 3 is the minimum for Tromsø. KP 5+ produces visible activity from the city centre.</div>
+      </div>
+      <div class="cond-card">
+        <div class="cond-name">Patience</div>
+        <div class="cond-desc">Aurora is unpredictable. A forecast can change within hours. Multiple nights outdoors increases the probability of a sighting.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-t">Likelihood by month (season)</div>
+    <div class="crowd-wrap">
+      <div class="crowd-row"><span class="crowd-day">Sep</span><div class="crowd-bar"><div class="crowd-fill c-med" style="width:55%"></div></div><span class="crowd-lbl c-med-l">Moderate</span></div>
+      <div class="crowd-row"><span class="crowd-day">Oct</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:70%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Nov</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:80%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Dec</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:75%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Jan</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:75%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Feb</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:80%"></div></div><span class="crowd-lbl c-high-l">Busy</span></div>
+      <div class="crowd-row"><span class="crowd-day">Mar</span><div class="crowd-bar"><div class="crowd-fill c-high" style="width:90%"></div></div><span class="crowd-lbl c-high-l">Peak</span></div>
+    </div>
+    <div class="crowd-tip"><strong>Best months:</strong> Late September and late March align with the equinoxes, which historically produce the highest aurora activity. January and February offer the longest dark windows each night. September has the advantage of warmer temperatures — outdoor waiting is more comfortable than in midwinter. March combines high solar activity probability with temperatures that are still manageable. Always check both the KP forecast (spaceweather.no) and the cloud forecast (yr.no) before going out.</div>
+  </div>
+
+  <div class="venue-photo-bottom"></div>
+
+  <div class="sec">
+    <div class="sec-t">FAQ</div>
+    <div class="fq">
+      <div class="fq-q">When is the best time to see the Northern Lights in Tromsø?</div>
+      <div class="fq-a">The season runs September to March. Peak solar activity statistically occurs around the autumn and spring equinoxes — late September and late March. The darkest months (November to January) offer the longest viewing windows each night. March combines high activity probability with improving temperatures.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Is it free to see the Northern Lights in Tromsø?</div>
+      <div class="fq-a">Yes. The aurora borealis is a free natural phenomenon visible from any outdoor location with a dark, clear sky. Any website selling a "Northern Lights ticket" or "aurora experience" is selling a tour, transport service, or guided trip — not access to the lights themselves.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Where is the best place to see the Northern Lights in Tromsø?</div>
+      <div class="fq-a">The key requirement is darkness and a clear sky. Moving away from the city centre reduces light pollution. The shores of Tromsøya outside the centre, the Tromsdalen valley across the bridge, and elevated viewpoints like Fjellheisen summit all work well. Organised tours drive 20–30 km from the city to rural dark-sky locations.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">How do I know if Northern Lights will be visible tonight?</div>
+      <div class="fq-a">Check yr.no for cloud cover in the Tromsø area — clear sky is essential. Check spaceweather.no for the KP index forecast. A KP of 3 or higher combined with a clear sky typically produces visible aurora from Tromsø. KP 5 or above is visible from the city centre despite moderate light pollution.</div>
+    </div>
+    <div class="fq">
+      <div class="fq-q">Do I need a tour to see the Northern Lights?</div>
+      <div class="fq-a">No. The aurora is visible from within Tromsø city on clear nights with sufficient solar activity. Organised tours (typically 1,000–2,500 NOK) provide transport to darker locations and a guide, but are not required. Renting a car and driving 20–30 km from the city is a lower-cost self-guided alternative.</div>
+    </div>
+  </div>
+
+  <div class="claim">
+    <div class="claim-t">🕵 Claim this mission</div>
+    <div class="claim-txt">Help verify current viewing conditions, forecast resources, or best locations for Northern Lights in Tromsø.<br/>Submit verified info and earn points on the leaderboard.</div>
+    <span class="claim-btn">Enroll as Detective →</span>
+  </div>
+
+  <div class="footer">
+    <p>Northern Lights (Aurora Borealis) Tromsø · <a href="/norway">Norway</a> · <a href="/norway/tromso">← Tromsø</a> · <a href="/">officiallink.org</a><br/>
+    <span style="font-size:.35rem;color:var(--dim)">📷 Photo · Wikimedia Commons · CC BY-SA 4.0</span></p>
+  </div>
+
+</div>
+
+<div class="sticky">
+  <a class="s-free" href="https://www.visittromso.no" target="_blank" rel="noopener">🆓 Free — No Ticket</a>
+  <a class="s-site" href="https://spaceweather.no" target="_blank" rel="noopener">🌌 KP Forecast ✅</a>
+  <a class="s-map" href="https://www.google.com/maps/place/Tromsø,+Norway/@69.6496,18.9560,12z" target="_blank" rel="noopener">📍 Tromsø ✅</a>
+</div>
+
+<script defer src="/detective-layer.js"></script>
+<script defer src="/site.js"></script>
+</body>
+</html>
+
