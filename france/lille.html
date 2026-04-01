@@ -1,151 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
 <title>Lille — Official Tickets for 10 Attractions | officiallink.org</title>
-<meta name="description" content="Lille attractions with official links. 10 venues. Direct booking, no reseller markup.">
-<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-<link rel="canonical" href="https://officiallink.org/france/lille">
-<meta property="og:title" content="Lille — Official Tickets for 10 Attractions | officiallink.org">
-<meta property="og:description" content="Every Lille attraction at the official price. Direct booking links — no reseller markup.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://officiallink.org/france/lille">
-<meta property="og:site_name" content="officiallink.org">
-<meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Lille Official Links", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "TouristAttraction", "name": "Grand Place — Place du Général de Gaulle", "url": "https://officiallink.org/venue/grand-place-place-du-general-de-gaulle/"}}, {"@type": "ListItem", "position": 2, "item": {"@type": "TouristAttraction", "name": "Vieille Bourse", "url": "https://officiallink.org/venue/vieille-bourse/"}}, {"@type": "ListItem", "position": 3, "item": {"@type": "TouristAttraction", "name": "Citadelle de Lille", "url": "https://officiallink.org/venue/citadelle-de-lille/"}}, {"@type": "ListItem", "position": 4, "item": {"@type": "TouristAttraction", "name": "Vieux-Lille", "url": "https://officiallink.org/venue/vieux-lille/"}}, {"@type": "ListItem", "position": 5, "item": {"@type": "TouristAttraction", "name": "Palais des Beaux-Arts de Lille", "url": "https://officiallink.org/venue/palais-des-beaux-arts-de-lille/"}}, {"@type": "ListItem", "position": 6, "item": {"@type": "TouristAttraction", "name": "Musée de l'Hospice Comtesse", "url": "https://officiallink.org/venue/musee-de-l-hospice-comtesse/"}}, {"@type": "ListItem", "position": 7, "item": {"@type": "TouristAttraction", "name": "Opéra de Lille", "url": "https://officiallink.org/venue/opera-de-lille/"}}, {"@type": "ListItem", "position": 8, "item": {"@type": "TouristAttraction", "name": "La Piscine — Musée d'Art et d'Industrie", "url": "https://officiallink.org/venue/la-piscine-musee-d-art-et-d-industrie/"}}, {"@type": "ListItem", "position": 9, "item": {"@type": "TouristAttraction", "name": "Valenciennes — Open-Air Sculpture City", "url": "https://officiallink.org/venue/valenciennes-open-air-sculpture-city/"}}, {"@type": "ListItem", "position": 10, "item": {"@type": "TouristAttraction", "name": "Villa Cavrois", "url": "https://officiallink.org/venue/villa-cavrois/"}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://officiallink.org/"}, {"@type": "ListItem", "position": 2, "name": "France", "item": "https://officiallink.org/france"}, {"@type": "ListItem", "position": 3, "name": "Lille", "item": "https://officiallink.org/france/lille"}]}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta content="Lille official tickets and direct booking links for 10 attractions. Skip reseller markups — every link goes to the venue's own booking system." name="description"/>
+<link href="https://officiallink.org/france/lille" rel="canonical"/>
+
+<!-- Open Graph -->
+<meta content="Lille — Official Tickets &amp; Direct Links | officiallink.org" property="og:title"/>
+<meta content="Official tickets and direct booking links for 10 Lille attractions. No reseller markup." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://officiallink.org/france/lille" property="og:url"/>
+<meta content="officiallink.org" property="og:site_name"/>
+<meta content="https://officiallink.org/img/city/lille.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Lille attractions — official booking links" property="og:image:alt"/>
+<meta content="en" property="og:locale"/>
+
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://officiallink.org/img/city/lille.jpg" name="twitter:image"/>
+<meta content="Lille — Official Tickets | officiallink.org" name="twitter:title"/>
+<meta content="10 Lille attractions with verified official booking links. No reseller markup." name="twitter:description"/>
+
+<!-- Indexing -->
+<meta content="index, follow" name="robots"/>
+<meta content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="robots"/>
+
+<!-- Mobile / PWA hints -->
+<meta content="#0b0d12" name="theme-color"/>
+<meta content="#0b0d12" name="msapplication-TileColor"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+
+<!-- Geo targeting -->
+<meta content="FR-59" name="geo.region"/>
+<meta content="Lille" name="geo.placename"/>
+<meta content="50.6292;3.0573" name="geo.position"/>
+<meta content="50.6292;3.0573" name="ICBM"/>
+
+<!-- JSON-LD: ItemList -->
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"Lille Attractions — Official Booking Links",
+  "description":"10 Lille attractions with verified official booking links. No reseller markup.",
+  "url":"https://officiallink.org/france/lille",
+  "numberOfItems":10,
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Palais des Beaux-Arts de Lille","url":"https://officiallink.org/france/palais-des-beaux-arts-de-lille"},
+    {"@type":"ListItem","position":2,"name":"Vieux-Lille","url":"https://officiallink.org/france/vieux-lille"},
+    {"@type":"ListItem","position":3,"name":"Grand Place — Place du Général de Gaulle","url":"https://officiallink.org/france/grand-place-place-du-general-de-gaulle"},
+    {"@type":"ListItem","position":4,"name":"Vieille Bourse","url":"https://officiallink.org/france/vieille-bourse"},
+    {"@type":"ListItem","position":5,"name":"Citadelle de Lille","url":"https://officiallink.org/france/citadelle-de-lille"},
+    {"@type":"ListItem","position":6,"name":"Villa Cavrois","url":"https://officiallink.org/france/villa-cavrois"},
+    {"@type":"ListItem","position":7,"name":"La Piscine — Musée d'Art et d'Industrie","url":"https://officiallink.org/france/la-piscine-musee-d-art-et-d-industrie"},
+    {"@type":"ListItem","position":8,"name":"Musée de l'Hospice Comtesse","url":"https://officiallink.org/france/musee-de-l-hospice-comtesse"},
+    {"@type":"ListItem","position":9,"name":"Opéra de Lille","url":"https://officiallink.org/france/opera-de-lille"},
+    {"@type":"ListItem","position":10,"name":"Valenciennes — Open-Air Sculpture City","url":"https://officiallink.org/france/valenciennes-open-air-sculpture-city"}
+  ]
+}</script>
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://officiallink.org/"},
+    {"@type":"ListItem","position":2,"name":"France","item":"https://officiallink.org/france"},
+    {"@type":"ListItem","position":3,"name":"Lille"}
+  ]
+}</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"How do I avoid reseller markups in Lille?","acceptedAnswer":{"@type":"Answer","text":"Book directly at each venue's official website. Palais des Beaux-Arts tickets are at pba-lille.fr, Villa Cavrois at villa-cavrois.fr, La Piscine at roubaix-lapiscine.com, and the Citadelle tour bookings through the official Lille tourism office. Most Lille attractions are free — any reseller charging for Grand Place or Vieux-Lille access is fraudulent."}},
+    {"@type":"Question","name":"Which Lille attractions are free to visit?","acceptedAnswer":{"@type":"Answer","text":"Grand Place, Vieux-Lille, Vieille Bourse (interior courtyard), and the Citadelle exterior are all free. The Palais des Beaux-Arts offers free admission on the first Sunday of each month. Opéra de Lille building exterior and public areas are free."}},
+    {"@type":"Question","name":"What is the best way to get around Lille?","acceptedAnswer":{"@type":"Answer","text":"Lille has an automated metro (VAL system) with two lines covering the city and extending to Roubaix (La Piscine) and Tourcoing. Trams and buses complete the network. All operated by Ilevia — tickets and passes at ilevia.fr. La Piscine in Roubaix is 30 minutes from Lille centre by metro line 2."}},
+    {"@type":"Question","name":"How many days do you need in Lille?","acceptedAnswer":{"@type":"Answer","text":"One full day covers Grand Place, Vieux-Lille, Vieille Bourse, and the Palais des Beaux-Arts. Add a second day for Villa Cavrois in Croix and La Piscine in Roubaix. The Citadelle park is a 30-minute walk from the centre and adds another half day."}},
+    {"@type":"Question","name":"How do I get from Lille-Lesquin Airport to the city centre?","acceptedAnswer":{"@type":"Answer","text":"Shuttle bus Line A connects Lille-Lesquin Airport (LIL) to Lille-Flandres and Lille-Europe stations — journey approximately 20 minutes. Operated by Ilevia. Timetables and tickets at ilevia.fr. Eurostar and Thalys services from London and Brussels arrive directly at Lille-Europe station — no airport transfer needed."}}
+  ]
+}</script>
+
+<!-- JSON-LD: TouristDestination -->
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"TouristDestination",
+  "name":"Lille",
+  "description":"Official booking links for 10 Lille attractions. Direct tickets at official prices — no reseller markup.",
+  "url":"https://officiallink.org/france/lille",
+  "geo":{"@type":"GeoCoordinates","latitude":50.6292,"longitude":3.0573},
+  "containedInPlace":{"@type":"Country","name":"France"},
+  "touristType":["Art Lovers","Architecture Enthusiasts","History Travellers"]
+}</script>
+
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
-:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--gd:#a68430;--grn:#2db34a;--gbg:rgba(45,179,74,.07);--red:#e04848;--blu:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
+:root{--bg:#0b0d12;--s1:#121620;--s2:#1a1f2e;--ink:#e8e5de;--sub:#7a7d85;--dim:#4a4d55;--bdr:#222738;--gold:#d4a843;--grn:#2db34a;--grn-bg:rgba(45,179,74,.07);--red:#e04848;--red-bg:rgba(224,72,72,.06);--blue:#4d8bff;--r:10px;--sf:'Cormorant Garamond',Georgia,serif;--ss:'Figtree',system-ui,sans-serif}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--ss);background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
-a{color:var(--blu);text-decoration:none}
-.tp{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
-.tb{font-weight:800;color:#fff;font-size:.72rem}.tb span{color:var(--gold)}
-.tl{color:var(--sub);font-size:.62rem}
-.hr{position:relative;min-height:240px;overflow:hidden;background:linear-gradient(160deg,#002395 0%,#002395 33%,#fff 33%,#fff 66%,#ED2939 66%,#ED2939 100%)}
-.hr::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 5%,rgba(11,13,18,.55) 50%,rgba(11,13,18,.75) 100%)}
-.hi{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:2rem 1rem 1.2rem}
-.bc{font-size:.52rem;color:rgba(255,255,255,.3);margin-bottom:.4rem}.bc a{color:rgba(255,255,255,.4)}
-h1{font-family:var(--sf);font-size:clamp(1.8rem,5vw,2.8rem);color:#fff;font-weight:700;line-height:1.05;margin-bottom:.15rem}
-.hs{font-size:.75rem;color:rgba(255,255,255,.38);font-weight:300}
-.cn{position:sticky;top:2.5rem;z-index:100;background:rgba(11,13,18,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--bdr);padding:.35rem .8rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
-.cn::-webkit-scrollbar{display:none}
-.cp{display:inline-flex;align-items:center;gap:.2rem;padding:.25rem .55rem;border-radius:20px;font-size:.55rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);margin-right:.25rem;text-decoration:none;transition:all .15s}
-.cp:hover,.cp.ac{color:var(--gold);border-color:var(--gd);background:rgba(212,168,67,.08)}
-.wy{max-width:900px;margin:.6rem auto 0;padding:0 1rem}
-.wi{background:rgba(224,72,72,.05);border:1px solid rgba(224,72,72,.1);border-radius:var(--r);padding:.5rem .7rem;font-size:.55rem;color:#b88;line-height:1.5}
-.wi strong{color:var(--red)}
-.sc{max-width:900px;margin:0 auto;padding:.6rem 1rem}
-.sh{display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem}
-.st2{font-family:var(--sf);font-size:1rem;color:var(--gold);font-weight:600}
-.sn{font-size:.48rem;color:var(--dim);font-weight:700;background:var(--s1);padding:.12rem .4rem;border-radius:8px}
-.gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.4rem}
-@media(max-width:560px){.gr{grid-template-columns:1fr 1fr}}
-.vc{background:var(--s1);border:1px solid var(--bdr);border-radius:var(--r);padding:.55rem .65rem;text-decoration:none;display:block;transition:all .15s;position:relative}
-.vc:hover{border-color:var(--gd);transform:translateY(-2px);box-shadow:0 3px 12px rgba(0,0,0,.25);text-decoration:none}
-.vn{font-size:.68rem;font-weight:700;color:var(--ink);margin-bottom:.1rem;line-height:1.2}
-.vs{font-size:.48rem;color:var(--sub);margin-bottom:.25rem;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.vr{display:flex;justify-content:space-between;align-items:flex-end}
-.vp{font-family:var(--sf);font-size:.9rem;color:#fff;font-weight:700}
-.vp.fr{color:var(--grn);font-size:.78rem}
-.vx{font-size:.46rem;color:var(--red);text-decoration:line-through;opacity:.5}
-.va{color:var(--gd);font-size:.65rem}
-.vl{display:flex;gap:.15rem;flex-wrap:wrap;margin-top:.2rem}
-.vt{font-size:.4rem;font-weight:700;padding:.1rem .3rem;border-radius:3px;background:var(--s2);color:var(--sub)}
-.vt.vv{background:var(--gbg);color:var(--grn)}
-.ft{max-width:900px;margin:0 auto;padding:.8rem;text-align:center;border-top:1px solid var(--bdr)}
-.ft p{font-size:.46rem;color:var(--dim);line-height:1.6}.ft a{color:var(--gold)}
-@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.vc{animation:up .35s ease-out backwards}
-.dtc{background:linear-gradient(135deg,var(--s1),var(--s2));border:1px solid var(--bdr);border-radius:8px;padding:.8rem;margin:.6rem 0}
-.dtc strong,.dtc h3{color:var(--gold);font-size:.65rem;margin:0 0 .3rem 0}
-.dtc p{font-size:.5rem;color:var(--sub);line-height:1.6;margin:.2rem 0}
-.dtc .dtc-steps{font-size:.48rem;color:var(--ink);line-height:1.8;margin:.3rem 0}
-
-.back-btn{display:block;text-align:center;margin:.6rem auto;width:fit-content;padding:.45rem 1.2rem;background:var(--s1);border:1px solid var(--bdr);border-radius:8px;font-size:.65rem;font-weight:700;color:var(--sub);text-decoration:none;transition:all .15s}
-.back-btn:hover{border-color:var(--gd);color:var(--gold)}
+a{color:var(--blue);text-decoration:none}
+.top{background:rgba(11,13,18,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--bdr);padding:.5rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:101}
+.tl{font-weight:800;color:#fff;font-size:.72rem}.tl span{color:var(--gold)}
+.top-back{font-size:.6rem;font-weight:600;color:var(--sub)}
+.hero{position:relative;background-image:url('/img/city/lille.jpg');background-size:cover;background-position:center;min-height:280px;overflow:hidden;background-color:#1c1a0c}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(16,14,8,.85),rgba(28,26,12,.8) 45%,rgba(40,36,14,.75))}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 0%,rgba(11,13,18,.1) 40%,rgba(11,13,18,.55) 100%)}
+.hero-in{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:2.5rem 1rem 1.5rem;text-align:center}
+.crumb{font-size:.55rem;color:rgba(255,255,255,.3);margin-bottom:.8rem}.crumb a{color:rgba(255,255,255,.4)}
+h1{font-family:var(--sf);font-size:clamp(2rem,6vw,3rem);color:#fff;font-weight:700;line-height:1.08;margin-bottom:.3rem}
+.hero-sub{font-size:.75rem;color:rgba(255,255,255,.45);font-weight:300;max-width:500px;margin:0 auto}
+.back-btn{display:block;max-width:800px;margin:.5rem auto;padding:0 .8rem}
+.back-btn a{display:inline-flex;align-items:center;gap:.3rem;font-size:.6rem;font-weight:700;color:var(--sub);background:var(--s1);border:1px solid var(--bdr);border-radius:6px;padding:.35rem .7rem;text-decoration:none;transition:color .15s,border-color .15s}
+.back-btn a:hover{color:var(--gold);border-color:rgba(212,168,67,.3)}
+.tabs{display:flex;gap:.3rem;justify-content:center;flex-wrap:wrap;padding:.6rem 1rem;max-width:800px;margin:0 auto}
+.tab{font-size:.5rem;font-weight:700;padding:.3rem .65rem;border-radius:20px;cursor:pointer;border:1px solid var(--bdr);background:var(--s1);color:var(--sub);transition:all .15s;user-select:none;text-decoration:none}
+.tab:hover,.tab.active{background:rgba(212,168,67,.12);color:var(--gold);border-color:rgba(212,168,67,.3)}
+.tab .count{font-size:.42rem;opacity:.6;margin-left:.2rem}
+.alert-hub{max-width:800px;margin:.4rem auto .2rem;padding:0 1rem}
+.alert-hub-inner{background:var(--red-bg);border:1px solid rgba(224,72,72,.15);border-radius:var(--r);padding:.5rem .8rem;font-size:.52rem;color:#b88;text-align:center}
+.alert-hub-inner strong{color:var(--red)}
+.section{max-width:800px;margin:0 auto;padding:.8rem 1rem .2rem}
+.sec-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem;padding-bottom:.3rem;border-bottom:1px solid var(--bdr)}
+.sec-title{font-family:var(--sf);font-size:1rem;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:.4rem}
+.sec-count{font-size:.42rem;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.08em}
+.v-card{display:block;background:var(--s1);border:1px solid var(--bdr);border-radius:var(--r);margin-bottom:.35rem;text-decoration:none;transition:border-color .15s;overflow:hidden}
+.v-card:hover{border-color:rgba(212,168,67,.25)}
+.v-img{width:100%;height:140px;object-fit:cover;display:block;background:var(--s2)}
+.v-body{padding:.6rem .7rem}
+.v-top{display:flex;gap:.5rem;align-items:flex-start}
+.v-flag{font-size:1.2rem;flex-shrink:0;margin-top:.1rem}
+.v-info{flex:1;min-width:0}
+.v-name{font-size:.72rem;font-weight:700;color:#fff;margin-bottom:.1rem;display:flex;align-items:center;gap:.3rem;flex-wrap:wrap}
+.v-badge{font-size:.38rem;font-weight:700;padding:.1rem .35rem;border-radius:12px;flex-shrink:0}
+.v-badge-unesco{background:rgba(212,168,67,.1);color:var(--gold);border:1px solid rgba(212,168,67,.15)}
+.v-desc{font-size:.5rem;color:var(--sub);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.v-right{text-align:right;flex-shrink:0}
+.v-price{font-family:var(--sf);font-size:.85rem;font-weight:700;color:var(--gold)}
+.v-price.free{color:var(--grn)}
+.v-verified{font-size:.38rem;font-weight:700;color:var(--grn);display:flex;align-items:center;gap:.15rem;justify-content:flex-end}
+.v-btns{display:flex;gap:.3rem;margin-bottom:.35rem;padding:0 .7rem .1rem}
+.v-btn{font-size:.42rem;font-weight:600;padding:.2rem .5rem;border-radius:5px;text-decoration:none;display:inline-flex;align-items:center;gap:.2rem;transition:all .12s}
+.v-btn-book{background:linear-gradient(135deg,var(--grn),#228b3a);color:#fff;box-shadow:0 1px 6px rgba(45,179,74,.2)}
+.v-btn-book:hover{box-shadow:0 2px 8px rgba(45,179,74,.3)}
+.v-btn-book.grey{background:var(--s2);color:var(--dim);border:1px solid var(--bdr);box-shadow:none;pointer-events:none}
+.v-btn-site{background:var(--s2);color:var(--blue);border:1px solid var(--bdr)}
+.v-btn-site:hover{border-color:rgba(77,139,255,.3)}
+.v-btn-map{background:var(--s2);color:var(--sub);border:1px solid var(--bdr)}
+.v-btn-map:hover{border-color:rgba(122,125,133,.3)}
+.carousel-wrap{position:relative;max-width:800px;margin:0 auto}
+.carousel-track{display:flex;gap:.35rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:.2rem 0}
+.carousel-track::-webkit-scrollbar{display:none}
+.trip-card{flex:0 0 55%;max-width:240px;scroll-snap-align:start;background:var(--s1);border:1px solid var(--bdr);border-radius:var(--r);padding:.55rem .65rem;text-decoration:none;transition:border-color .15s;display:block}
+@media(min-width:600px){.trip-card{flex:0 0 38%;max-width:260px}}
+.trip-card:hover{border-color:rgba(212,168,67,.25)}
+.trip-name{font-size:.65rem;font-weight:700;color:#fff;margin-bottom:.1rem}
+.trip-meta{font-size:.42rem;color:var(--sub);line-height:1.5}
+.trip-tag{font-size:.36rem;font-weight:700;color:var(--gold);background:rgba(212,168,67,.1);border:1px solid rgba(212,168,67,.15);padding:.08rem .3rem;border-radius:10px;display:inline-block;margin-top:.2rem}
+.t-card{flex:0 0 55%;max-width:240px;scroll-snap-align:start;background:var(--s1);border:1px solid var(--bdr);border-radius:var(--r);padding:.5rem .6rem;text-decoration:none;transition:border-color .15s;display:block}
+@media(min-width:600px){.t-card{flex:0 0 38%;max-width:260px}}
+.t-card:hover{border-color:rgba(77,139,255,.3)}
+.t-icon{font-size:1.1rem;margin-bottom:.2rem}
+.t-name{font-size:.58rem;font-weight:700;color:#fff;margin-bottom:.08rem}
+.t-desc{font-size:.42rem;color:var(--sub);line-height:1.45}
+.t-link{font-size:.38rem;font-weight:700;color:var(--blue);margin-top:.2rem;display:inline-block}
+.detective{max-width:800px;margin:1.5rem auto;padding:0 1rem}
+.detective-inner{background:var(--s1);border:1px dashed var(--bdr);border-radius:var(--r);padding:1rem;text-align:center}
+.detective-t{font-family:var(--sf);color:var(--gold);font-size:.95rem;margin-bottom:.3rem}
+.detective-txt{font-size:.55rem;color:var(--sub);line-height:1.7;margin-bottom:.5rem}
+.detective-steps{font-size:.48rem;color:var(--sub);line-height:1.9;text-align:left;max-width:400px;margin:0 auto .5rem}
+.footer{max-width:800px;margin:0 auto;padding:1rem;text-align:center;border-top:1px solid var(--bdr)}
+.footer p{font-size:.5rem;color:var(--dim);line-height:1.7}
+.footer a{color:var(--gold)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero-in>*{animation:up .5s ease-out backwards}
+h1{animation-delay:.05s}.hero-sub{animation-delay:.1s}
 </style>
 </head>
 <body>
-<div class="tp"><span class="tb">official<span>link</span>.org</span><a href="/france" class="tl">← France</a></div>
-<div class="hr"><div class="hi">
-<div class="bc"><a href="/">Home</a> › <a href="/france">France</a> › Lille</div>
-<h1>Lille</h1>
-<div class="hs">Official tickets for every attraction. Direct links. No reseller markup.</div>
+
+<!-- TOP BAR -->
+<div class="top">
+  <span class="tl">official<span>link</span>.org</span>
+  <a class="top-back" href="/france">← France</a>
 </div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-in">
+    <div class="crumb"><a href="/">Home</a> › <a href="/france">France</a> › Lille</div>
+    <h1>Lille</h1>
+    <div class="hero-sub">Official tickets for every attraction. Direct links. No reseller markup.</div>
+  </div>
 </div>
-<a class="back-btn" href="/france">← France</a>
-<div class="cn">
-<a class="cp" href="#districts-streets">🏘️ Districts &amp; Streets <span style="opacity:.5">3</span></a>
-<a class="cp" href="#castles-historic-buildings">🏰 Castles &amp; Historic Buildings <span style="opacity:.5">4</span></a>
-<a class="cp" href="#museums-galleries">🏛️ Museums &amp; Galleries <span style="opacity:.5">3</span></a>
+
+<!-- BACK BUTTON TOP -->
+<div class="back-btn"><a href="/france">← Back to France</a></div>
+
+<!-- FILTER TABS -->
+<div class="tabs">
+  <a class="tab active" href="#top">🔥 Top<span class="count">5</span></a>
+  <a class="tab" href="#museums">🏛️ Museums<span class="count">3</span></a>
+  <a class="tab" href="#districts">🏘️ Districts<span class="count">2</span></a>
 </div>
-<div class="wy"><div class="wi">⚠️ <strong>Reseller sites charge 2–3x official prices.</strong> Every verified link here goes directly to the venue.</div></div>
-<div class="sc" id="districts-streets">
-<div class="sh"><div class="st2">Districts &amp; Streets</div><div class="sn">3</div></div>
-<div class="gr"><a class="vc" href="/venue/grand-place-place-du-general-de-gaulle/">
-<div class="vn">🇫🇷 Grand Place — Place du Général de Gaulle</div>
-<div class="vs">Central Square of Lille — De Gaulle&#x27;s Birthplace</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/vieux-lille/">
-<div class="vn">🇫🇷 Vieux-Lille</div>
-<div class="vs">Flemish &amp; French Baroque Townhouses — Cobbled Streets</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/opera-de-lille/">
-<div class="vn">🇫🇷 Opéra de Lille</div>
-<div class="vs">Neoclassical Opera House on Grand Place</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a></div>
-</div><div class="sc" id="castles-historic-buildings">
-<div class="sh"><div class="st2">Castles &amp; Historic Buildings</div><div class="sn">4</div></div>
-<div class="gr"><a class="vc" href="/venue/vieille-bourse/">
-<div class="vn">🇫🇷 Vieille Bourse</div>
-<div class="vs">17th-Century Merchants&#x27; Exchange — Flemish Renaissance Ornament</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/citadelle-de-lille/">
-<div class="vn">🇫🇷 Citadelle de Lille</div>
-<div class="vs">Vauban&#x27;s 17th-Century Star Fortress — Still Garrisoned</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/palais-des-beaux-arts-de-lille/">
-<div class="vn">🇫🇷 Palais des Beaux-Arts de Lille</div>
-<div class="vs">France&#x27;s Richest Collection Outside the Louvre — Rubens, Goya, 40 Raphael Drawings</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/villa-cavrois/">
-<div class="vn">🇫🇷 Villa Cavrois</div>
-<div class="vs">1932 Modernist Villa by Robert Mallet-Stevens</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a></div>
-</div><div class="sc" id="museums-galleries">
-<div class="sh"><div class="st2">Museums &amp; Galleries</div><div class="sn">3</div></div>
-<div class="gr"><a class="vc" href="/venue/musee-de-l-hospice-comtesse/">
-<div class="vn">🇫🇷 Musée de l&#x27;Hospice Comtesse</div>
-<div class="vs">13th-Century Hospital Museum — Flemish &amp; Dutch Paintings</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/la-piscine-musee-d-art-et-d-industrie/">
-<div class="vn">🇫🇷 La Piscine — Musée d&#x27;Art et d&#x27;Industrie</div>
-<div class="vs">Art Deco Swimming Pool Turned Museum — 30min by Metro</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a><a class="vc" href="/venue/valenciennes-open-air-sculpture-city/">
-<div class="vn">🇫🇷 Valenciennes — Open-Air Sculpture City</div>
-<div class="vs">Birthplace of Carpeaux — Mining Capital Turned Outdoor Art Museum</div>
-<div class="vr"><div><div class="vp">See site</div></div><span class="va">→</span></div>
-<div class="vl"><span class="vt vv">✅ Verified</span></div>
-</a></div>
+
+<!-- ALERT -->
+<div class="alert-hub">
+  <div class="alert-hub-inner">⚠️ <strong>Reseller sites charge 2×–4× for tickets you can get direct.</strong> Every link on this page goes to the venue's own booking system.</div>
 </div>
-<div style="max-width:900px;margin:0 auto;padding:0 1rem"><div class="dtc"><h3>🕵️ Become a Detective</h3><p>officiallink.org is built by contributors who verify official links for every attraction. Claim a venue, verify its official website and booking page, and earn your detective badge.</p><div class="dtc-steps">→ Pick a venue with ⚠️ Awaiting status<br>→ Find and verify the official website and booking link<br>→ Submit your verification<br>→ Get credited as the verified detective for that venue</div><p>Every verified link helps a traveller avoid reseller scams. Start with any venue on this page.</p></div></div>
-<a class="back-btn" href="/france">← France</a>
-<div class="ft"><p>Lille · 10 attractions · Official links<br><a href="/france">← France</a> · <a href="/">officiallink.org</a></p></div>
-<script src="/detective-layer.js" defer></script>
-</body></html>
+
+<!-- TOP (Most Visited) -->
+<div class="section" id="top">
+  <div class="sec-header">
+    <div class="sec-title">🔥 Most Visited</div>
+    <div class="sec-count">5 verified</div>
+  </div>
+
+  <a class="v-card" href="/france/palais-des-beaux-arts-de-lille">
+    <img class="v-img" src="/img/venue/palais-des-beaux-arts-de-lille.jpg" alt="Palais des Beaux-Arts de Lille" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Palais des Beaux-Arts de Lille</div>
+          <div class="v-desc">France's richest fine arts collection outside the Louvre — Rubens, Goya, Delacroix, 40 Raphael drawings.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €7.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-book" href="https://www.pba-lille.fr/en/visit/tickets-and-prices" target="_blank" rel="noopener">🎟 Book Official</a>
+    <a class="v-btn v-btn-site" href="https://www.pba-lille.fr/en" target="_blank" rel="noopener">🌐 pba-lille.fr</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Palais+des+Beaux-Arts+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/vieux-lille">
+    <img class="v-img" src="/img/venue/vieux-lille.jpg" alt="Vieux-Lille" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Vieux-Lille</div>
+          <div class="v-desc">Flemish and French Baroque townhouses — cobbled streets and 17th-century architecture. Free to walk.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price free">Free</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Vieux+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/villa-cavrois">
+    <img class="v-img" src="/img/venue/villa-cavrois.jpg" alt="Villa Cavrois" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Villa Cavrois</div>
+          <div class="v-desc">1932 Modernist villa by Robert Mallet-Stevens — fully restored, one of the finest examples of early 20th-century rationalist architecture.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €9.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-book" href="https://www.villa-cavrois.fr/en/visit/tickets" target="_blank" rel="noopener">🎟 Book Official</a>
+    <a class="v-btn v-btn-site" href="https://www.villa-cavrois.fr/en" target="_blank" rel="noopener">🌐 villa-cavrois.fr</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Villa+Cavrois+Croix+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/la-piscine-musee-d-art-et-d-industrie">
+    <img class="v-img" src="/img/venue/la-piscine-musee-d-art-et-d-industrie.jpg" alt="La Piscine — Musée d'Art et d'Industrie" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">La Piscine — Musée d'Art et d'Industrie</div>
+          <div class="v-desc">Art Deco swimming pool converted into a museum in Roubaix — sculpture, textiles, fine arts. 30 min by metro.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €11.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-book" href="https://www.roubaix-lapiscine.com/en/visit/admission" target="_blank" rel="noopener">🎟 Book Official</a>
+    <a class="v-btn v-btn-site" href="https://www.roubaix-lapiscine.com/en" target="_blank" rel="noopener">🌐 roubaix-lapiscine.com</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=La+Piscine+Musee+Roubaix+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/citadelle-de-lille">
+    <img class="v-img" src="/img/venue/citadelle-de-lille.jpg" alt="Citadelle de Lille" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Citadelle de Lille</div>
+          <div class="v-desc">Vauban's 17th-century pentagonal star fortress — still garrisoned by the French military. Surrounding park is free.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €5.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-site" href="https://www.lillemetropole.fr" target="_blank" rel="noopener">🌐 lillemetropole.fr</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Citadelle+de+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+</div>
+
+<!-- MUSEUMS -->
+<div class="section" id="museums">
+  <div class="sec-header">
+    <div class="sec-title">🏛️ Museums</div>
+    <div class="sec-count">3 verified</div>
+  </div>
+
+  <a class="v-card" href="/france/musee-de-l-hospice-comtesse">
+    <img class="v-img" src="/img/venue/musee-de-l-hospice-comtesse.jpg" alt="Musée de l'Hospice Comtesse" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Musée de l'Hospice Comtesse</div>
+          <div class="v-desc">13th-century hospital museum — Flemish and Dutch paintings in a preserved medieval care ward.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €4.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-site" href="https://www.musee-hospice-comtesse.fr" target="_blank" rel="noopener">🌐 musee-hospice-comtesse.fr</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Musee+de+l+Hospice+Comtesse+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/opera-de-lille">
+    <img class="v-img" src="/img/venue/opera-de-lille.jpg" alt="Opéra de Lille" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Opéra de Lille</div>
+          <div class="v-desc">Neoclassical opera house on Grand Place — performances of opera, ballet, and concerts.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price">from €10.00</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-book" href="https://www.opera-lille.fr/en/programme/buy-tickets" target="_blank" rel="noopener">🎟 Book Official</a>
+    <a class="v-btn v-btn-site" href="https://www.opera-lille.fr/en" target="_blank" rel="noopener">🌐 opera-lille.fr</a>
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Opera+de+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/valenciennes-open-air-sculpture-city">
+    <img class="v-img" src="/img/venue/valenciennes-open-air-sculpture-city.jpg" alt="Valenciennes — Open-Air Sculpture City" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Valenciennes — Open-Air Sculpture City</div>
+          <div class="v-desc">Birthplace of Carpeaux — former mining capital with outdoor sculptures and the Musée des Beaux-Arts.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price free">Free</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Valenciennes+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+</div>
+
+<!-- DISTRICTS -->
+<div class="section" id="districts">
+  <div class="sec-header">
+    <div class="sec-title">🏘️ Districts &amp; Squares</div>
+    <div class="sec-count">2 verified</div>
+  </div>
+
+  <a class="v-card" href="/france/grand-place-place-du-general-de-gaulle">
+    <img class="v-img" src="/img/venue/grand-place-place-du-general-de-gaulle.jpg" alt="Grand Place — Place du Général de Gaulle" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Grand Place — Place du Général de Gaulle</div>
+          <div class="v-desc">Central square of Lille — birthplace of Charles de Gaulle. Flanked by the Vieille Bourse and Opéra. Free to visit.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price free">Free</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Grand+Place+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+  <a class="v-card" href="/france/vieille-bourse">
+    <img class="v-img" src="/img/venue/vieille-bourse.jpg" alt="Vieille Bourse" onerror="this.style.display='none'"/>
+    <div class="v-body">
+      <div class="v-top">
+        <span class="v-flag">🇫🇷</span>
+        <div class="v-info">
+          <div class="v-name">Vieille Bourse</div>
+          <div class="v-desc">17th-century merchants' exchange — Flemish Renaissance carved stonework. Inner courtyard open to visitors. Free entry.</div>
+        </div>
+        <div class="v-right">
+          <div class="v-price free">Free</div>
+          <div class="v-verified">✅ verified →</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="v-btns">
+    <a class="v-btn v-btn-map" href="https://maps.google.com/?q=Vieille+Bourse+Lille+France" target="_blank" rel="noopener">📍 Maps</a>
+  </div>
+
+</div>
+
+<!-- DAY TRIPS -->
+<div class="section" id="day-trips">
+  <div class="sec-header">
+    <div class="sec-title">🚆 Day Trips &amp; Also Visit</div>
+    <div class="sec-count">from Lille</div>
+  </div>
+  <div class="carousel-track">
+    <a class="trip-card" href="/france/paris">
+      <div class="trip-name">Paris</div>
+      <div class="trip-meta">Capital — Louvre, Musée d'Orsay, Eiffel Tower.</div>
+      <span class="trip-tag">🚆 1h by TGV</span>
+    </a>
+    <a class="trip-card" href="/france/bruges">
+      <div class="trip-name">Bruges</div>
+      <div class="trip-meta">Medieval Flemish canal city — UNESCO World Heritage.</div>
+      <span class="trip-tag">🚆 1h by train</span>
+    </a>
+    <a class="trip-card" href="/france/ghent">
+      <div class="trip-name">Ghent</div>
+      <div class="trip-meta">Flemish city — Gravensteen castle, St Bavo's Cathedral.</div>
+      <span class="trip-tag">🚆 1h 10min by train</span>
+    </a>
+    <a class="trip-card" href="/france/brussels">
+      <div class="trip-name">Brussels</div>
+      <div class="trip-meta">EU capital — Grand Place, Atomium, Manneken Pis.</div>
+      <span class="trip-tag">🚆 38min by Thalys</span>
+    </a>
+  </div>
+</div>
+
+<!-- GETTING AROUND -->
+<div class="section" id="getting-around">
+  <div class="sec-header">
+    <div class="sec-title">🚇 Getting Around Lille</div>
+    <div class="sec-count">official links only</div>
+  </div>
+  <div class="carousel-track">
+    <a class="t-card" href="https://www.ilevia.fr/en" target="_blank" rel="noopener">
+      <div class="t-icon">🚇</div>
+      <div class="t-name">Ilevia</div>
+      <div class="t-desc">Lille metro, tram, and bus network — metro line 2 to Roubaix (La Piscine).</div>
+      <span class="t-link">ilevia.fr →</span>
+    </a>
+    <a class="t-card" href="https://www.sncf-connect.com/en-en/" target="_blank" rel="noopener">
+      <div class="t-icon">🚆</div>
+      <div class="t-name">SNCF Connect</div>
+      <div class="t-desc">TGV and Intercités — Lille-Europe to Paris in 1 hour.</div>
+      <span class="t-link">sncf-connect.com →</span>
+    </a>
+    <a class="t-card" href="https://www.eurostar.com" target="_blank" rel="noopener">
+      <div class="t-icon">🚄</div>
+      <div class="t-name">Eurostar</div>
+      <div class="t-desc">London St Pancras to Lille-Europe direct — 1h 22min.</div>
+      <span class="t-link">eurostar.com →</span>
+    </a>
+    <a class="t-card" href="https://www.lille.aeroport.fr/en" target="_blank" rel="noopener">
+      <div class="t-icon">✈️</div>
+      <div class="t-name">Lille-Lesquin Airport</div>
+      <div class="t-desc">Airport shuttle to Lille-Flandres station — 20 min. Ilevia Line A.</div>
+      <span class="t-link">lille.aeroport.fr →</span>
+    </a>
+  </div>
+</div>
+
+<!-- DETECTIVE -->
+<div class="detective">
+  <div class="detective-inner">
+    <div class="detective-t">🕵️ Become a Detective</div>
+    <div class="detective-txt">officiallink.org is built by contributors who verify official links for every attraction. Claim a venue, verify its official website and booking page, and earn your detective badge.</div>
+    <div class="detective-steps">
+      → Pick a venue with ⚠️ Awaiting status<br/>
+      → Find and verify the official website and booking link<br/>
+      → Submit your verification<br/>
+      → Get credited as the verified detective for that venue
+    </div>
+    <div class="detective-txt">Every verified link helps a traveller avoid reseller scams. Start with any venue on this page.</div>
+  </div>
+</div>
+
+<!-- BACK BUTTON BOTTOM -->
+<div class="back-btn" style="margin-top:1rem"><a href="/france">← Back to France</a></div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <p>Lille — Official links · No reseller markup<br/>
+  <a href="/france">← France</a> · <a href="/">officiallink.org</a> · v4.0</p>
+</div>
+
+<script defer src="/detective-layer.js"></script>
+<script defer src="/site.js"></script>
+</body>
+</html>
